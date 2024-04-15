@@ -1,4 +1,4 @@
 <?php
-header("Location: http://157.245.62.54/dashboard-babelprov/public/images/icn/", true, 301);
+header("Location: https://eoffice.balikpapan.go.id/pdf/", true, 301);
 exit();
 ?>
