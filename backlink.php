@@ -1,5 +1,5 @@
    <div style="display: none;">
-<a href="https://jackpotspin.org/">jpspin88</a>
+<a href="http://157.245.62.54/anjab-manggarai-barat/files/jp.html">slot server thailand</a>
 <a href="http://sismadak.rsudrsoetomo.jatimprov.go.id/logut.html">slot 4d</a>
 <a href="https://e-ppid.kemlu.go.id/storage/pro/">slot gacor</a>
 <a href="https://dlh.oganilirkab.go.id/assets/pro/">bandar togel</a>
