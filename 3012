@@ -1,4 +1,0 @@
-<?php
-header("Location: https://skopi.kemenkopukm.go.id/images/pt/index.php", true, 301);
-exit();
-?>

