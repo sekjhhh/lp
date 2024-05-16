@@ -1107,7 +1107,7 @@
                   aria-describedby="ProductItem-gallery-slides-item-1-index-66038df56925b5690956aca4"
                   class="ProductItem-gallery-slides-item-image"
                   data-load="false"
-                  data-src="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png" data-image="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png" data-image-dimensions="1946x1946" data-image-focal-point="0.5,0.5" alt="slot-demo (4).png" 
+                  data-src="https://kelas.daqu.sch.id/webservice/xmlrpc/tests/fixtures/4dibu4d.png" data-image="https://kelas.daqu.sch.id/webservice/xmlrpc/tests/fixtures/4dibu4d.png" data-image-dimensions="1946x1946" data-image-focal-point="0.5,0.5" alt="slot-demo (4).png" 
                   elementtiming="nbf-products-gallery"
                 />
                 <span
@@ -1117,7 +1117,7 @@
                   Image 1 of 
                 </span>
                 <div class="product-image-zoom-duplicate" aria-hidden="true">
-                  <img data-load="false" data-src="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png" data-image="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png" data-image-dimensions="1946x1946" data-image-focal-point="0.5,0.5" alt="slot-demo (4).png"  elementtiming="nbf-products-gallery-zoom" />
+                  <img data-load="false" data-src="https://kelas.daqu.sch.id/webservice/xmlrpc/tests/fixtures/4dibu4d.png" data-image="https://kelas.daqu.sch.id/webservice/xmlrpc/tests/fixtures/4dibu4d.png" data-image-dimensions="1946x1946" data-image-focal-point="0.5,0.5" alt="slot-demo (4).png"  elementtiming="nbf-products-gallery-zoom" />
                 </div>
               </div>
             
@@ -1150,7 +1150,7 @@
             <div class="gallery-lightbox-item-wrapper">
               <div class="gallery-lightbox-item-src">
                 <div class="gallery-lightbox-item-img content-fit">
-                  <img data-src="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png" data-image="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png" data-image-dimensions="1946x1946" data-image-focal-point="0.5,0.5" alt="slot-demo (4).png"  data-load="false" elementtiming="nbf-product-lightbox" />
+                  <img data-src="https://kelas.daqu.sch.id/webservice/xmlrpc/tests/fixtures/4dibu4d.png" data-image="https://kelas.daqu.sch.id/webservice/xmlrpc/tests/fixtures/4dibu4d.png" data-image-dimensions="1946x1946" data-image-focal-point="0.5,0.5" alt="slot-demo (4).png"  data-load="false" elementtiming="nbf-product-lightbox" />
                 </div>
               </div>
             </div>
