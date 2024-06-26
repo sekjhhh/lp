@@ -1,4 +1,1 @@
-<?php
-header("Location: https://eoffice.balikpapan.go.id/pdf/", true, 301);
-exit();
-?>
+google-site-verification: google8166737379bea7c3.html
