@@ -8,6 +8,6 @@
 <a href="https://aursati.desa.id/">toto slot 4d</a>
 <a href="https://kemenagkotabaubau.com/file/img/">slot 4d</a>
 <a href="https://law.unib.ac.id/wp-content/themes/zgacor/">toto slot</a>
-<a href="https://jackpotspin.org/">jpspin88</a>
+<a href="https://spd.bawaslu.go.id/ams-public/img/">slot bonus</a>
 
      </div>
