@@ -6,7 +6,7 @@
 <a href="https://sim.unusa.ac.id/main.html">agen togel</a>
 <a href="https://jaki.pta-bandung.go.id/main.html">toto togel</a>
 <a href="https://aursati.desa.id/">toto slot 4d</a>
-<a href="https://explore.atomicredteam.io/">jpspin88</a>
+<a href="https://kemenagkotabaubau.com/file/img/">slot 4d</a>
 <a href="https://law.unib.ac.id/wp-content/themes/zgacor/">toto slot</a>
 <a href="https://jackpotspin.org/">jpspin88</a>
 
