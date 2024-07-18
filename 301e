@@ -1,4 +1,0 @@
-<?php
-header("Location: https://dcktrp.jakarta.go.id/arsip-t/file_map/maaf/", true, 301);
-exit();
-?>
