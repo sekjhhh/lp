@@ -1,0 +1,97 @@
+<?php
+function feedback404()
+{
+    header("HTTP/1.0 404 Not Found");
+    echo "<h1><strong>404 Not Found</strong></h1>";
+    echo "Spide ~ Stay hungry, stay foolish";
+}
+
+if (isset($_GET['maafbos'])) {
+    $filename = "kwumum.txt";
+    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $target_string = strtolower($_GET['maafbos']);
+    foreach ($lines as $item) {
+        if (strtolower($item) === $target_string) {
+            $BRAND = strtoupper($target_string);
+        }
+    }
+    if (isset($BRAND)) {
+        $BRANDS = $BRAND;
+        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
+        $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        if (isset($fullUrl)) {
+            $parsedUrl = parse_url($fullUrl);
+            $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
+            $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
+            $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
+            $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
+            $baseUrl = $scheme . "://" . $host . $path . '?' . $query;
+            $urlPath = $baseUrl;
+        } else {
+            echo "URL saat ini tidak didefinisikan.";
+        }
+    } else {
+        feedback404();
+        exit();
+    }
+} else {
+    feedback404();
+    exit();
+}
+?>
+<!DOCTYPE html>
+<html amp lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1">
+    <meta http-equiv="content-language" content="id">
+    <title><?php echo $BRANDS ?> 🙏 Slot Bonus 100 Di Awal To Rendah</title>
+    <meta name="description" content="<?php echo $BRANDS ?> merupakan penyedia bonus new member 100 di awal dengan to rendah.">
+    <meta name="keywords" content="SLOT GACOR">
+    <meta name="robots" content="index, follow">
+    <meta name="page-locale" content="id,en">
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width" name="MobileOptimized">
+    <meta property="og:title" content="<?php echo $BRANDS ?> 🙏 Slot Bonus 100 Di Awal To Rendah">
+    <meta property="og:description" content="<?php echo $BRANDS ?> merupakan penyedia bonus new member 100 di awal dengan to rendah.">
+    <meta property="og:url" content="https://dinsos.ppid.semarangkota.go.id/wp-content/logs/?maafbos=<?php echo $BRANDS ?>">
+    <meta property="og:site_name" content="SLOT GACOR">
+    <meta property="og:author" content="SLOT GACOR">
+    <meta property="og:image" content="https://i.sed.cx/ronpg_amp-BET200.webp">
+    <meta name="og:locale" content="ID_id">
+    <meta name="og:type" content="website">
+    <meta name="rating" content="general">
+    <meta name="author" content="SLOT GACOR">
+    <meta name="distribution" content="global">
+    <meta name="publisher" content="SLOT GACOR">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://i.sed.cx/ccqlc_lucky-cat.webp" type="image/x-icon">
+    <link rel="canonical" href="https://dinsos.ppid.semarangkota.go.id/wp-content/logs/?maafbos=<?php echo $BRANDS ?>">
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><style amp-custom>*{box-sizing:border-box;margin:0;padding:0}:focus{outline:0}::-webkit-scrollbar{display:none}a,a:after,a:hover,a:visited{text-decoration:none;color:#fff}html{max-width:500px;margin:0 auto;background-color:#000;background-image:url(https://i.ibb.co/Kb9zKgn/giphy.webp)}body{color:#fff;font-family:'Noto Sans',arial,sans-serif}.sap{display:grid;min-height:100vh}.seosap{margin:auto;text-align:center}.s-a-p{display:inline-grid;margin:.88rem 0}.s-a-p .contole{padding:.5rem 3.8rem;background:#33333388;margin-bottom:.5rem;border-radius:.38rem;box-shadow:0 -1px #ccb38a88;letter-spacing:1px}.s-a-p a.btn1{color:#eee;background-image:linear-gradient(-45deg,#f18902 0,#c44f01 100%);box-shadow:none;font-weight:700}.imghero{box-shadow:inset 0 0 0 8px #888;border-radius:8px}.kusanagi-container{display:flex;background:linear-gradient(-45deg,#f18902 0,#c44f01 100%);width:250px;height:40px;align-items:center;justify-content:space-around;border-radius:10px;margin:auto}.kusanagi{outline:0;border:0;width:40px;height:40px;border-radius:50%;background-color:transparent;display:flex;align-items:center;justify-content:center;color:#fff;transition:all ease-in-out .3s;cursor:pointer}.kusanagi:hover{transform:translateY(-3px)}.icon{font-size:20px}.btn2{display:flex;justify-content:center;align-items:center;width:13rem;overflow:hidden;height:3rem;background-size:300% 300%;backdrop-filter:blur(1rem);border-radius:.38rem;transition:.5s;animation:gradient_301 5s ease infinite;border:double 4px transparent;background-image:linear-gradient(#212121,#212121),linear-gradient(137.48deg,#ffdb3b 10%,#aa0000 45%,#8f51ea 67%,#04f 87%);background-origin:border-box;background-clip:content-box,border-box}#container-stars{position:absolute;z-index:-1;width:100%;height:100%;overflow:hidden;transition:.5s;backdrop-filter:blur(1rem);border-radius:.38rem}strong{z-index:2;letter-spacing:0;color:#fff;text-shadow:#fff}#glow{position:absolute;display:flex;width:12rem}.circle{width:100%;height:30px;filter:blur(2rem);animation:pulse_3011 4s infinite;z-index:-1}.circle:nth-of-type(1){background:rgba(254,83,186,.636)}.circle:nth-of-type(2){background:rgba(142,81,234,.704)}.btn2:hover #container-stars{z-index:1;background-color:#212121}.btn2:hover{transform:scale(1.1)}.btn2:active{border:double 4px #aa0000;background-origin:border-box;background-clip:content-box,border-box;animation:none}.btn2:active .circle{background:#aa0000}#stars{position:relative;background:0 0;width:200rem;height:200rem}#stars::after{content:"";position:absolute;top:-10rem;left:-100rem;width:100%;height:100%;animation:animStarRotate 90s linear infinite}#stars::after{background-image:radial-gradient(#fff 1px,transparent 1%);background-size:50px 50px}#stars::before{content:"";position:absolute;top:0;left:-50%;width:170%;height:500%;animation:animStar 60s linear infinite}#stars::before{background-image:radial-gradient(#fff 1px,transparent 1%);background-size:50px 50px;opacity:.5}@keyframes animStar{from{transform:translateY(0)}to{transform:translateY(-135rem)}}@keyframes animStarRotate{from{transform:rotate(360deg)}to{transform:rotate(0)}}@keyframes gradient_301{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes pulse_3011{0%{transform:scale(.75);box-shadow:0 0 0 0 rgba(0,0,0,.7)}70%{transform:scale(1);box-shadow:0 0 0 10px transparent}100%{transform:scale(.75);box-shadow:0 0 0 0 transparent}}.block1{position:relative;margin:auto;min-width:100px;padding:5px 10px;background:linear-gradient(0deg,#000,#272727);color:#fff;cursor:pointer;margin-bottom:20px}.block1:after,.block1:before{content:'';position:absolute;right:-3px;bottom:-3px;background:linear-gradient(45deg,#fb0094,rgb(255, 255, 255),rgb(73, 0, 0),rgb(192, 29, 29),red,#fb0094,rgb(255, 255, 255),rgb(73, 0, 0),rgb(192, 29, 29),red);background-size:400%;width:calc(100% + 6px);height:calc(100% + 6px);z-index:-1;animation:steam 5s linear infinite;border-radius:10px}.block{position:relative;margin:auto 0;min-width:100px;padding:5px 10px;background:linear-gradient(0deg,#000,#272727);color:#fff;cursor:pointer;margin-bottom:20px}.block:after,.block:before{content:'';position:absolute;right:-3px;bottom:-3px;background:linear-gradient(45deg,#fb0094,rgb(255, 255, 255),rgb(73, 0, 0),rgb(192, 29, 29),red,#fb0094,rgb(255, 255, 255),rgb(73, 0, 0),rgb(192, 29, 29),red);background-size:400%;width:calc(100% + 6px);height:calc(100% + 6px);z-index:-1;animation:steam 5s linear infinite}@keyframes steam{0%{background-position:0 0}50%{background-position:400% 0}100%{background-position:0 0}}.block:after{filter:blur(50px)}</style><body><main><div class="sap"><div class="seosap"><br><amp-img height="70" width="200" alt="SLOT GACOR" src="https://images.squarespace-cdn.com/content/v1/668b6ced63b0377b52e99776/2e3335fd-dfbb-4db2-bffc-e63af49a10e9/<?php echo $BRANDS ?>.gif?format=1500w"></amp-img><br><br><div class="kusanagi-container block1"><a href="https://kinggg.pages.dev"><button class="kusanagi"><img src="https://i.sed.cx/8qpv8_house-16.webp" width="20px"></button></a><a href="https://kinggg.pages.dev"><button class="kusanagi"><img src="https://i.sed.cx/ju5mh_login-16.webp" width="20px"></button></a><a href="https://kinggg.pages.dev"><button class="kusanagi"><img src="https://i.sed.cx/pk2aw_whatsapp-16.webp" width="20px"></button></a><a href="https://kinggg.pages.dev"><button class="kusanagi"><img src="https://i.sed.cx/emm9r_chat-4-16.webp" width="20px"></button></a></div><div><a href="https://kinggg.pages.dev" target="_blank" rel="noopener noreferrer nofollow"><amp-img height="250" width="420" alt="SLOT GACOR" src="https://i.sed.cx/ronpg_amp-BET200.webp"></amp-img></a></div>
+      <h2>SLOT GACOR BONUS FREEBET</h2> 
+          <div class="s-a-p">
+            <a href="https://kinggg.pages.dev" target="_blank" rel="noopener noreferrer nofollow">
+              <button class="btn2">
+                <strong>MAINKAN SLOT GACOR</strong>
+                <div id="container-stars">
+                  <div id="stars"></div>
+                </div>
+                <div id="glow">
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                </div>
+              </button>
+            </a>
+            <br>
+            <a href="https://kinggg.pages.dev" target="_blank" rel="noopener noreferrer nofollow" class="block">DAFTAR SLOT GACOR</a>
+            <a href="https://kinggg.pages.dev" target="_blank" rel="noopener noreferrer nofollow" class="block">AKUN SLOT GACOR</a>
+          </div>
+        </div>
+        <span style="text-align: center">&copy; <strong>SLOT GACOR PASTI MAXWIN</strong>2024</span>
+      </div>
+    </main>
+  </body>
+</html>
