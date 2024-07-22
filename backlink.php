@@ -1,13 +1,14 @@
-   <div style="display: none;">
-<a href="http://157.245.62.54/anjab-manggarai-barat/files/jp.html">slot server thailand</a>
-<a href="https://skopi.kemenkopukm.go.id/images/pt/index.php">slot server thailand</a>
-<a href="https://pusdasip.kedirikota.go.id/files_skp_2024/gacorr/">slot gacor</a>
-<a href="https://silatdik.kemdikbud.go.id/uploads/pdf/">slot4d</a>
-<a href="https://sim.unusa.ac.id/main.html">agen togel</a>
-<a href="https://spd.bawaslu.go.id/ams-panel/sg/">slot gacor</a>
-<a href="https://aursati.desa.id/">toto slot 4d</a>
-<a href="https://kemenagkotabaubau.com/file/img/">slot 4d</a>
-<a href="https://law.unib.ac.id/wp-content/themes/zgacor/">toto slot</a>
-<a href="https://spd.bawaslu.go.id/ams-public/img/">slot bonus</a>
+<div style="display:none">
+  <h2 style="position:absolute;top:-12540px">
+  <li><a href="https://speed.sipakatau.iainpalopo.ac.id/jss/" rel="dofollow">slot gacor</a><li>
+  <li><a href="https://hadir.jembranakab.go.id/file/" rel="dofollow">slot gacor 4d</a><li>
+  <li><a href="http://157.245.80.103/win/" rel="dofollow">slot gacor 4d</a><li>
+  <li><a href="https://sima.uniramalang.ac.id/front/gate/win/" rel="dofollow">slot gacor 2024</a><li>
+  <li><a href="https://sijago.dephub.go.id/js/jss/" rel="dofollow">slot gacor</a><li>
+  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/uploads/img/" rel="dofollow">slot gacor</a><li>
+  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
+  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
+  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
+  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
 
-     </div>
+      </div>
