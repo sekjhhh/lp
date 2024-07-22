@@ -1,0 +1,4 @@
+<?php
+header("Location: https://siperkasa-v3.balikpapan.go.id/partai/pdi/", true, 301);
+exit();
+?>
