@@ -9,6 +9,6 @@
   <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
   <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
   <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
-  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
+  <li><a href="https://pasca.unsoed.ac.id/-/sats/" rel="dofollow">slot bonus</a><li>
 
       </div>
