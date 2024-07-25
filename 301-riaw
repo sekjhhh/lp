@@ -1,4 +1,0 @@
-<?php
-header("Location http://siketan.dpmptsp.riau.go.id/assets/msg/", true, 301);
-exit();
-?>
