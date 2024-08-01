@@ -7,7 +7,7 @@
   <li><a href="https://sijago.dephub.go.id/js/jss/" rel="dofollow">slot gacor</a><li>
   <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/uploads/img/" rel="dofollow">slot gacor</a><li>
   <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
-  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
+  <li><a href="https://holymadness.com/" rel="dofollow">win168</a><li>
   <li><a href="http://terlaksana.co.id/gambar/pdf/" rel="dofollow">win168</a><li>
   <li><a href="https://r0y.9d7.mytemp.website/" rel="dofollow">win168</a><li>
 
