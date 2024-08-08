@@ -6,9 +6,9 @@
   <li><a href="https://sima.uniramalang.ac.id/front/gate/win/" rel="dofollow">slot gacor 2024</a><li>
   <li><a href="https://sijago.dephub.go.id/js/jss/" rel="dofollow">slot gacor</a><li>
   <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/uploads/img/" rel="dofollow">slot gacor</a><li>
-  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/cace/" rel="dofollow">slot bonus</a><li>
-  <li><a href="https://holymadness.com/" rel="dofollow">win168</a><li>
+  <li><a href="https://decordots.com/win/" rel="dofollow">slot gacor</a><li>
+  <li><a href="https://holymadness.com/" rel="dofollow">win168win</a><li>
   <li><a href="http://terlaksana.co.id/gambar/pdf/" rel="dofollow">win168</a><li>
-  <li><a href="https://r0y.9d7.mytemp.website/" rel="dofollow">win168</a><li>
+  <li><a href="https://www.saharaclinic.co.id/wp-content/js/" rel="dofollow">slot gacor</a><li>
 
       </div>
