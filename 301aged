@@ -1,4 +1,0 @@
-<?php
-header("Location: https://holymadness.com/", true, 301);
-exit();
-?>
