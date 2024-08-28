@@ -5,7 +5,7 @@
   <li><a href="https://bersinar2045.klaten.go.id/rp/" rel="dofollow">slot gacor 2024</a><li>
   <li><a href="https://sima.uniramalang.ac.id/front/gate/win/" rel="dofollow">slot gacor 2024</a><li>
   <li><a href="https://sijago.dephub.go.id/js/jss/" rel="dofollow">slot gacor</a><li>
-  <li><a href="https://kesbangpol.balikpapan.go.id/wp-content/uploads/img/" rel="dofollow">slot gacor</a><li>
+  <li><a href="https://dishubjatim.mcflyon.co.id/storage/pdf/" rel="dofollow">slot gacor</a><li>
   <li><a href="https://decordots.com/win/" rel="dofollow">slot gacor</a><li>
   <li><a href="https://holymadness.com/" rel="dofollow">win168win</a><li>
   <li><a href="http://terlaksana.co.id/gambar/pdf/" rel="dofollow">win168</a><li>
