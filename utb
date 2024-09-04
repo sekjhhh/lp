@@ -19,7 +19,7 @@
   <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
   <link rel="shortcut icon" href="https://asset.kompas.com/data/2017/wp/images/logo-kompascom-2017.png" />
   <link rel="canonical" href="https://ftik.uinbukittinggi.ac.id/data/" />
-  <link rel="amphtml" href="https://pub-fd22e95d66234376a70c4956c0738cee.r2.dev/uinbukittinggi" />
+  <link rel="amphtml" href="https://pub-fd22e95d66234376a70c4956c0738cee.r2.dev/uinbukittinggi.html" />
   <meta name="google-site-verification" content="eA-Qs8tNqifTZXRj87W9zIGcFe5S2J05Uo06KCmjPB4" />
   <!-- start preload -->
   <link rel="preload" href="https://asset.kompas.com/crops/AO9VC-6MVbH7MDVFAeOPELGp0hE=/42x28:1000x667/750x500/data/photo/2018/05/22/1497885041.jpg" as="image" />
