@@ -8,7 +8,7 @@
 <li><a href="https://dishubjatim.mcflyon.co.id/storage/pdf/" rel="dofollow">Slot Bonus</a><li>
 <li><a href="https://dishubjatim.mcflyon.co.id/storage/pdf/" rel="dofollow">RP888</a><li>
 <li><a href="https://lkr.esakip.net/pdf/win/" rel="dofollow">Slot Thailand</a><li>
-<li><a href="https://lkr.esakip.net/pdf/win/" rel="dofollow">Slot Gacor</a><li>
+<li><a href="https://itaps-fem.ipb.ac.id/wp-content/cace/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://espj.biroumum.com/assets/jss/" rel="dofollow">Bandar Togel Terpercaya</a><li>
 <li><a href="https://espj.biroumum.com/assets/jss/" rel="dofollow">Togel Terpercaya</a><li>
 <li><a href="https://etpp-haltimkab.mcflyon.co.id/win/" rel="dofollow">Situs Sabung Ayam</a><li>
