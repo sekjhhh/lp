@@ -38,7 +38,7 @@
 <li><a href="https://kodim0723.tni-ad.mil.id/wp-content/rp/" rel="dofollow">RP888</a><li>
 <li><a href="https://smkn1maesan.sch.id/rp/" rel="dofollow">RP8888</a><li>
 <li><a href="https://www.artaku.id/rp/" rel="dofollow">Togel Singapore</a><li>
-<li><a href="https://siinem.mcflyon.co.id/images/pdf/" rel="dofollow">Togel Toto</a><li>
+<li><a href="https://ptun-yogyakarta.go.id/sg/" rel="dofollow">slot gacor</a><li>
 <li><a href="https://simantaprsud.padangpanjang.go.id/rs/" rel="dofollow">Slot Thailand</a><li>
 <li><a href="https://simantaprsud.padangpanjang.go.id/pengumuman/sbo-terpercaya/" rel="dofollow">Agen SBOBET</a><li>
 <li><a href="https://decordots.com" rel="dofollow">JAWABARAT4D</a><li>
