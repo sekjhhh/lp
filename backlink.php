@@ -1,7 +1,7 @@
 <div style="display:none">
   <h2 style="position:absolute;top:-12540px">
 <li><a href="https://batola.my.id/" rel="dofollow">RP8888</a><li>
-<li><a href="https://batola.my.id/" rel="dofollow">Slot Bet 200</a><li>
+<li><a href="https://swakaryanusantara.co.id/" rel="dofollow">Slot Server Thailand</a><li>
 <li><a href="https://elearning.unpand.ac.id/lib/seok/" rel="dofollow">Togel Singapura</a><li>
 <li><a href="https://ibsaude.org.br/class/data/" rel="dofollow">RP8888</a><li>
 <li><a href="https://ibsaude.org.br/class/data/" rel="dofollow">Slot Thailand</a><li>
