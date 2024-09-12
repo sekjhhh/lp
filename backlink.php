@@ -14,7 +14,7 @@
 <li><a href="https://decordots.com/" rel="dofollow">jawabarat4d</a><li>
 <li><a href="https://koperasi.koni-kotabandung.or.id/assets/win/" rel="dofollow">WIN168WIN</a><li>
 <li><a href="https://koperasi.koni-kotabandung.or.id/assets/win/" rel="dofollow">Slot Thailand</a><li>
-<li><a href="https://e-absensi.wonosobokab.go.id/file_kewajiban/" rel="dofollow">JOYBOLA</a><li>
+<li><a href="https://hangoverloungebali.com/play/" rel="dofollow">judi bola</a><li>
 <li><a href="https://e-absensi.wonosobokab.go.id/file_kewajiban/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://setda.kapuaskab.go.id/" rel="dofollow">RP888</a><li>
 <li><a href="https://setda.kapuaskab.go.id/" rel="dofollow">Slot Gacor</a><li>
