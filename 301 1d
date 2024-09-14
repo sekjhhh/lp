@@ -1,0 +1,4 @@
+<?php 
+header("Location: https://static.perpuskita.id/img/foto-sg/, true, 301); 
+exit(); 
+?>
