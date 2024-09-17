@@ -12,7 +12,7 @@
 <li><a href="https://hangoverloungebali.com/play/" rel="dofollow">judi bola 365</a><li>
 <li><a href="https://dib.alirsyadbandung.sch.id/storage/gacorr/" rel="dofollow">toto slot</a><li>
 <li><a href="https://decordots.com/" rel="dofollow">jawabarat4d</a><li>
-<li><a href="https://koperasi.koni-kotabandung.or.id/assets/win/" rel="dofollow">WIN168WIN</a><li>
+<li><a href="https://simpeg.bkpsdmd.makassarkota.go.id/sso/lazada/" rel="dofollow">4d slot</a><li>
 <li><a href="https://koperasi.koni-kotabandung.or.id/assets/win/" rel="dofollow">Slot Thailand</a><li>
 <li><a href="https://hangoverloungebali.com/play/" rel="dofollow">judi bola</a><li>
 <li><a href="https://e-absensi.wonosobokab.go.id/file_kewajiban/" rel="dofollow">Slot Gacor</a><li>
