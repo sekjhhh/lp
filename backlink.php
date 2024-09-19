@@ -1,9 +1,9 @@
 <div style="display:none">
   <h2 style="position:absolute;top:-12540px">
 <li><a href="https://sim-epk.poltekkes-malang.ac.id/captcha/thai/" rel="dofollow">rp888</a><li>
-<li><a href="https://swakaryanusantara.co.id/" rel="dofollow">Slot Server Thailand</a><li>
+<li><a href="https://bakesbangpol.katingankab.go.id/css/mwar/" rel="dofollow">mawartoto</a><li>
 <li><a href="https://file-bappeda.klaten.go.id/" rel="dofollow">slot jp</a><li>
-<li><a href="https://dib.alirsyadbandung.sch.id/storage/gacorr/" rel="dofollow">slot gacor</a><li>
+<li><a href="https://bakesbangpol.katingankab.go.id/js/kbt/" rel="dofollow">kembangtoto</a><li>
 <li><a href="https://janjohnson.org/img/" rel="dofollow">Slot Thailand</a><li>
 <li><a href="https://sireport.batam.go.id/images/pdf/index.html" rel="dofollow">Slot Thailand</a><li>
 <li><a href="https://e-surat.sid.net.id/images/gacor/" rel="dofollow">slot gacor</a><li>
@@ -13,13 +13,13 @@
 <li><a href="https://dib.alirsyadbandung.sch.id/storage/gacorr/" rel="dofollow">toto slot</a><li>
 <li><a href="https://decordots.com/" rel="dofollow">jawabarat4d</a><li>
 <li><a href="https://simpeg.bkpsdmd.makassarkota.go.id/sso/lazada/" rel="dofollow">4d slot</a><li>
-<li><a href="https://koperasi.koni-kotabandung.or.id/assets/win/" rel="dofollow">Slot Thailand</a><li>
+<li><a href="https://sulap.riau.go.id/ulpv2/paket/" rel="dofollow">rp888</a><li>
 <li><a href="https://hangoverloungebali.com/play/" rel="dofollow">judi bola</a><li>
 <li><a href="https://e-absensi.wonosobokab.go.id/file_kewajiban/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://setda.kapuaskab.go.id/" rel="dofollow">RP888</a><li>
 <li><a href="https://setda.kapuaskab.go.id/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://aursati.desa.id/" rel="dofollow">RP888</a><li>
-<li><a href="https://aursati.desa.id/" rel="dofollow">Togel Macau</a><li>
+<li><a href="https://bakesbangpol.katingankab.go.id/uploads/edm/" rel="dofollow">edmtogel</a><li>
 <li><a href="https://jdih.lampungbaratkab.go.id/sgwin/" rel="dofollow">RP888</a><li>
 <li><a href="https://jdih.lampungbaratkab.go.id/sgwin/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://tower.lampungbaratkab.go.id/icon/sgc/" rel="dofollow">Slot77</a><li>
