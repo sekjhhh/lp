@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ipd\-aos\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ipd\-aos\.org$
+RewriteRule ^/?$ "https\:\/\/ipd\-aos\.dev\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “alt-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-alt-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+AddType application/x-httpd-php .seo-k
