@@ -5,7 +5,7 @@
 <li><a href="https://file-bappeda.klaten.go.id/" rel="dofollow">slot jp</a><li>
 <li><a href="https://bakesbangpol.katingankab.go.id/js/kbt/" rel="dofollow">kembangtoto</a><li>
 <li><a href="https://janjohnson.org/img/" rel="dofollow">Slot Thailand</a><li>
-<li><a href="https://sireport.batam.go.id/images/pdf/index.html" rel="dofollow">Slot Thailand</a><li>
+<li><a href="https://salesforce.perumnas.co.id/jwabrat/" rel="dofollow">Slot Thailand</a><li>
 <li><a href="https://e-surat.sid.net.id/images/gacor/" rel="dofollow">slot gacor</a><li>
 <li><a href="https://e-surat.sid.net.id/images/gacor/" rel="dofollow">Slot gacor</a><li>
 <li><a href="https://itaps-fem.ipb.ac.id/wp-content/cace/" rel="dofollow">Slot Gacor</a><li>
