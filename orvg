@@ -1,4 +1,0 @@
-<?php 
-header("Location: https://e-surat.sid.net.id/images/gacor/, true, 301); 
-exit(); 
-?>
