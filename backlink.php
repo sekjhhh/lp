@@ -15,7 +15,7 @@
 <li><a href="https://simpeg.bkpsdmd.makassarkota.go.id/sso/lazada/" rel="dofollow">4d slot</a><li>
 <li><a href="https://sulap.riau.go.id/ulpv2/paket/" rel="dofollow">rp888</a><li>
 <li><a href="https://hangoverloungebali.com/play/" rel="dofollow">judi bola</a><li>
-<li><a href="https://e-absensi.wonosobokab.go.id/file_kewajiban/" rel="dofollow">Slot Gacor</a><li>
+<li><a href="https://sdgscenter.unair.ac.id/wp-includes/thai/" rel="dofollow">Slot Thailand</a><li>
 <li><a href="https://setda.kapuaskab.go.id/" rel="dofollow">RP888</a><li>
 <li><a href="https://setda.kapuaskab.go.id/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://aursati.desa.id/" rel="dofollow">RP888</a><li>
