@@ -7,7 +7,7 @@
 <li><a href="https://janjohnson.org/img/" rel="dofollow">Slot Thailand</a><li>
 <li><a href="https://ipd-ac.paidafrica.org/elearning/jwbart/" rel="dofollow">JAWABARAT4D</a><li>
 <li><a href="https://e-surat.sid.net.id/images/gacor/" rel="dofollow">slot gacor</a><li>
-<li><a href="https://ppid.untan.ac.id/.well-known/" rel="dofollow">Slot gacor</a><li>
+<li><a href="https://slot-thailand.smkjb.id/ rel="dofollow">Slot thailand</a><li>
 <li><a href="https://itaps-fem.ipb.ac.id/wp-content/cace/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://hangoverloungebali.com/play/" rel="dofollow">judi bola 365</a><li>
 <li><a href="https://si-pelangsing.badungkab.go.id/assets/file/gacorr/" rel="dofollow">toto slot</a><li>
