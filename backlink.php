@@ -1,6 +1,6 @@
 <div style="display:none">
   <h2 style="position:absolute;top:-12540px">
-<li><a href="https://sim-epk.poltekkes-malang.ac.id/captcha/thai/" rel="dofollow">rp888</a><li>
+<li><a href="https://dpr.mediaindonesia.com/images/jki/" rel="dofollow">slot gacor</a><li>
 <li><a href="https://bakesbangpol.katingankab.go.id/css/mwar/" rel="dofollow">mawartoto</a><li>
 <li><a href="https://si-pelangsing.badungkab.go.id/phpMyAdmin/pdf/" rel="dofollow">slot gacor</a><li>
 <li><a href="https://bakesbangpol.katingankab.go.id/js/kbt/" rel="dofollow">kembangtoto</a><li>
