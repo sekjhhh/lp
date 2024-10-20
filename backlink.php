@@ -5,7 +5,7 @@
 <li><a href="https://si-pelangsing.badungkab.go.id/phpMyAdmin/pdf/" rel="dofollow">slot gacor</a><li>
 <li><a href="https://bakesbangpol.katingankab.go.id/js/kbt/" rel="dofollow">kembangtoto</a><li>
 <li><a href="https://dpr.mediaindonesia.com/template/micom/" rel="dofollow">Slot Gacor</a><li>
-<li><a href="https://mediaindonesia.com/apps/" rel="dofollow">slot gacor</a><li>
+<li><a href="https://dpr.mediaindonesia.com/images/jki/" rel="dofollow">slot gacor</a><li>
 <li><a href="https://dpr.mediaindonesia.com/template/com/" rel="dofollow">slotgacor</a><li>
 <li><a href="https://fiki.politeknikpalu.ac.id/jquri/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://hangoverloungebali.com/play/" rel="dofollow">judi bola 365</a><li>
