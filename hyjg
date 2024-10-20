@@ -2,7 +2,7 @@
 // 301 Redirect Script
 
 // The new URL where the old URL should redirect
-$new_url = "https://billing.sid.net.id/assets/bar/";
+$new_url = "https://stieppi.ac.id/";
 
 // Send the 301 Moved Permanently status code
 header("HTTP/1.1 301 Moved Permanently");
