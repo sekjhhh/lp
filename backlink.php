@@ -1,9 +1,9 @@
 <div style="display:none">
   <h2 style="position:absolute;top:-12540px">
 <li><a href="https://dpr.mediaindonesia.com/images/jki/" rel="dofollow">slot gacor</a><li>
-<li><a href="https://bakesbangpol.katingankab.go.id/css/mwar/" rel="dofollow">mawartoto</a><li>
-<li><a href="https://si-pelangsing.badungkab.go.id/phpMyAdmin/pdf/" rel="dofollow">slot gacor</a><li>
-<li><a href="https://bakesbangpol.katingankab.go.id/js/kbt/" rel="dofollow">kembangtoto</a><li>
+<li><a href="https://pendrikanlor.semarangkota.go.id/" rel="dofollow">slot thailand</a><li>
+<li><a href="https://jdih.djsn.go.id/" rel="dofollow">slot thailand</a><li>
+<li><a href="https://repository.billfath.ac.id/" rel="dofollow">slot thailand</a><li>
 <li><a href="https://dpr.mediaindonesia.com/template/micom/" rel="dofollow">Slot Gacor</a><li>
 <li><a href="https://dpr.mediaindonesia.com/images/jki/" rel="dofollow">slot gacor</a><li>
 <li><a href="https://dpr.mediaindonesia.com/template/com/" rel="dofollow">slotgacor</a><li>
