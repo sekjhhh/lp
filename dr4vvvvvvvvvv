@@ -1,45 +1,65 @@
 <?php
+// Fungsi untuk menampilkan halaman 404 yang aman
 function feedback404()
 {
-    header("HTTP/1.0 404 NOT FOUND !!");
-    echo "<h1><strong>404 NOT FOUND !!</strong></h1>";
-    echo "<!-- This is <?php echo $BRANDS ?>. -->";
+    header("HTTP/1.0 404 Not Found");
+    echo "<h1><strong>404 Not Found</strong></h1>";
+    echo "<!-- This page does not exist. -->";
 }
 
-if (isset($_GET['baru'])) {
-    $filename = "list.txt";
-    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['baru
-  ']);
-    foreach ($lines as $item) {
-        if (strtolower($item) === $target_string) {
-            $BRAND = strtoupper($target_string);
-        }
-    }
-    if (isset($BRAND)) {
-        $BRANDS = $BRAND;
-        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
-        $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        if (isset($fullUrl)) {
-            $parsedUrl = parse_url($fullUrl);
-            $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
-            $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
-            $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
-            $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
-            $baseUrl = $scheme . "://" . $host . $path . '?' . $query;
-            $urlPath = $baseUrl;
+// Periksa apakah parameter 'baru' ada di URL dan valid
+if (isset($_GET['baru']) && !empty($_GET['baru'])) {
+    $target_string = strtolower(trim($_GET['baru']));
+
+    // Validasi untuk mencegah input yang tidak diinginkan
+    if (preg_match("/^[a-z0-9\s]+$/", $target_string)) {
+        $filename = "list.txt";
+        
+        // Cek apakah file ada dan bisa dibaca
+        if (file_exists($filename) && is_readable($filename)) {
+            $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+            $BRAND = null;
+            foreach ($lines as $item) {
+                if (strtolower(trim($item)) === $target_string) {
+                    $BRAND = strtoupper($target_string); // Temukan kecocokan dan simpan dalam variabel
+                    break; // Keluar dari loop setelah menemukan kecocokan
+                }
+            }
+
+            // Jika ditemukan, buat URL dan set header sesuai dengan brand yang valid
+            if ($BRAND) {
+                $BRANDS = $BRAND;
+                $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
+                $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+                // Parse URL untuk mendapatkan informasi lebih lanjut jika diperlukan
+                $parsedUrl = parse_url($fullUrl);
+                $baseUrl = $parsedUrl['scheme'] . "://" . $parsedUrl['host'] . $parsedUrl['path'] . '?' . (isset($parsedUrl['query']) ? $parsedUrl['query'] : '');
+
+                // Tampilkan base URL jika diperlukan
+                echo "Base URL: " . htmlspecialchars($baseUrl);
+            } else {
+                // Jika tidak ada kecocokan, tampilkan 404
+                feedback404();
+                exit();
+            }
         } else {
-            echo "URL saat ini tidak didefinisikan.";
+            // Jika file tidak ada atau tidak bisa dibaca, tampilkan 404
+            feedback404();
+            exit();
         }
     } else {
+        // Jika input tidak valid, tampilkan 404
         feedback404();
         exit();
     }
 } else {
+    // Jika parameter 'baru' tidak ada, tampilkan 404
     feedback404();
     exit();
 }
 ?>
+
 
 <!DOCTYPE HTML>
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
