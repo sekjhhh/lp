@@ -1,0 +1,48 @@
+<?php
+// Path ke file
+$templateFile = 'template.php';
+$dataFile = 'x.txt';
+
+// Baca konten dari data file
+$dataContent = file_get_contents($dataFile);
+
+// Periksa apakah file berhasil dibaca
+if ($dataContent === false) {
+    die('Error membaca file x.txt.');
+}
+
+// Pisahkan konten menjadi array berdasarkan baris
+$brands = explode("\n", trim($dataContent));
+
+// Mulai proses untuk setiap merek
+foreach ($brands as $brand) {
+    // Trim spasi di awal dan akhir
+    $brand = trim($brand);
+    
+    if (empty($brand)) {
+        continue; // Lewati baris kosong
+    }
+
+    // Mulai output buffering untuk menangkap output dari template PHP
+    ob_start();
+
+    // Set variabel data untuk digunakan dalam template
+    $BRAND = $brand;
+
+    // Include template file
+    include $templateFile;
+
+    // Ambil konten dari output buffer
+    $indexContent = ob_get_clean();
+
+    // Tulis hasilnya ke file index.html dengan nama merek
+    $outputFile = $brand . '.html'; // Menyimpan dengan nama merek
+    $result = file_put_contents($outputFile, $indexContent);
+
+    if ($result === false) {
+        echo "Error menulis ke file $outputFile.\n";
+    } else {
+        echo "File $outputFile telah dibuat dengan sukses!\n";
+    }
+}
+?>
