@@ -1,4 +1,7 @@
 <?php
+// Pastikan tidak ada output sebelum header
+ob_start();  // Menonaktifkan output buffering untuk mencegah error header yang tidak valid
+
 session_start();
 include_once "tambahan/sambunga.php";
 include_once "tambahan/pungsi.php";
@@ -41,10 +44,12 @@ if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
     header('Location: login');
     exit;
 }
+
+// Pastikan buffer output dihentikan
+ob_end_flush();
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta charset="utf-8" />
     <META NAME="robots" CONTENT="noindex,nofollow">
@@ -62,7 +67,6 @@ if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
     <link rel="stylesheet" type="text/css" href="assets/jquery-ui-1.12.1/jquery-ui.css">
     <script src="assets/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
 </head>
-
 <body>
     <header>
         <div class="container">
@@ -73,7 +77,6 @@ if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
             </div>
         </div>
     </header>
-    <!-- HEADER END-->
     <div class="navbar navbar-inverse set-radius-zero">
         <div class="container">
             <div class="navbar-header">
@@ -88,7 +91,6 @@ if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
             </div>
         </div>
     </div>
-    <!-- LOGO HEADER END-->
     <section class="menu-section">
         <div class="container">
             <div class="row">
@@ -103,7 +105,6 @@ if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
             </div>
         </div>
     </section>
-    <!-- MENU SECTION END-->
     <div class="content-wrapper">
         <div class="container">
             <div class="row">
@@ -113,7 +114,6 @@ if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
             </div>
         </div>
     </div>
-    <!-- CONTENT-WRAPPER SECTION END-->
     <footer>
         <div class="container">
             <div class="row">
@@ -123,9 +123,7 @@ if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
             </div>
         </div>
     </footer>
-    <!-- FOOTER SECTION END-->
     <script src="assets/js/jquery-1.11.1.js"></script>
     <script src="assets/js/bootstrap.js"></script>
 </body>
-
 </html>
