@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.65">
+    <meta name="theme-color" content="black">
+    <title>Hacked By ./MR - SKK</title>
+	<meta name="description" content="Hacked By Mr Skk # Jangan Lupa Bayar Pajak Untuk Kesejahtraan Anak Pejabat.">
+
+    <style type="text/css" media="all">
+      @import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap");
+
+      body {
+        background-image: url("https://res.cloudinary.com/di1pwoapk/image/upload/v1740831866/6203921470292346565_catqgv.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: black; /* Warna huruf dirobah jadi hideung */
+        font-family: "Kelly Slab";
+      }
+
+      h1 {
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+
+      p {
+        font-size: 18px; 
+      }
+
+      img {
+        width: 500px;
+      }
+
+      audio {
+        opacity: 0.50;
+        border-radius: 0px;
+        border: 0px #fff solid;
+      }
+
+      center {
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 50%;
+        margin: auto;
+        position: absolute;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <center>
+      <img src="https://res.cloudinary.com/di1pwoapk/image/upload/v1737373092/skk1x1clear_oswurm.png" width="200" alt="Skk Grup">
+      <h2>Hacked By ./mr -SKK</h2>
+      <p>Jangan Lupa Bayar Pajak Untuk Kesejahtraan Anak Pejabat</p>
+      <audio src="https://a.top4top.io/m_2103htzhz0.mp3" controls></audio>
+    </center>
+  </body>
+</html>
