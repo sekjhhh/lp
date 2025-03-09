@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/mrskk-masuk$ [NC]
+RewriteRule .* /wp-login.php [L]
