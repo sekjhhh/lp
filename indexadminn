@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- Title and other stuffs -->
+  <title>Login - SIA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <!-- Stylesheets -->
+  <link href="https://sia.stikes-bhm.ac.id/asset/asset1/style/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://sia.stikes-bhm.ac.id/asset/asset1/style/font-awesome.css">
+  <link href="https://sia.stikes-bhm.ac.id/asset/asset1/style/style.css" rel="stylesheet">
+ 
+  
+  <!-- HTML5 Support for IE -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shim.js"></script>
+  <![endif]-->
+  
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://sia.stikes-bhm.ac.id/asset/asset1/img/favicon/favisia.png">
+
+    <script language="javascript">
+		function validasi(login){
+			if (login.username.value == ""){
+		    	alert("Anda belum mengisikan Username");
+		    	login.username.focus();
+		    	return (false);}
+		     
+		  	if (login.password.value == ""){
+		    	alert("Anda belum mengisikan Password");
+		    	login.password.focus();
+		    	return (false);}
+		  	return (true);
+		}
+	</script>
+  
+  
+  </head>
+
+<body style="background-color:#14373C;">
+
+<!-- Form area -->
+<div class="admin-form">
+  <div class="container">
+
+    <div class="row">
+		<div class="col-md-2"></div>
+      <div class="col-md-8">
+        <!-- Widget starts -->
+            <div class="widget">
+              <!-- Widget head -->
+              <div class="widget-head">
+                <div class="pull-left"><i class="icon-lock"></i> Login - Sistem Infomasi Akademik (SIA)</div>
+				<div class="widget-icons pull-right">
+					<a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
+				</div>
+				<div class="clearfix"></div>
+				
+              </div>
+
+              <div class="widget-content">
+			
+				<div class="padd" style="height:auto;min-height:200px;">
+                  <!-- Login form -->
+					<div class="col-md-4">
+						<div class="well" style="height:auto;min-height:200px;padding:0px;overflow: hidden;background-color:#A3E1E9;">
+						<center>
+						<img src="https://sia.stikes-bhm.ac.id/asset/logo.png" class="img-responsive" style="padding-top:5px;max-width:150px;">
+						
+						<h5><b>STIKES BHM</b></h5>
+						<div style="line-height:15px;">Madiun</div>
+						
+						</center>
+						
+						</div>
+					</div>
+				<div class="col-md-8">	
+                  <form class="form-horizontal" id="sign_in" name="login" action="cek" method="POST" onSubmit="return validasi(this)">
+                    <!-- Email -->
+					
+                    <div class="form-group">
+                      <label class="control-label col-md-2" for="inputEmail">Username</label>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control" name="username" placeholder="username anda" required autofocus>
+                      </div>
+                    </div>
+                    <!-- Password -->
+                    <div class="form-group">
+                      <label class="control-label col-md-2" for="inputPassword">Password</label>
+                      <div class="col-md-10">
+                        <input type="password" class="form-control" name="password" placeholder="password anda" required>
+                      </div>
+                    </div>
+                    <div class="col-md-10 col-md-offset-2">
+							<button type="submit" class="btn btn-primary">Login</button>
+							<button type="reset" class="btn btn-default">Reset</button>
+						</div>
+                    <br />
+                  </form>
+                  
+				<br>
+				<style>
+.s_error {
+	color:red;
+}
+.s_sukses {
+color:green;
+}
+
+</style>
+
+				
+				</div>
+				
+				</div>
+                </div><br>
+              
+                <div class="widget-foot">
+                  <a href="" data-toggle="modal" data-target="#ModalLupaPass">Lupa Password ?</a>
+                </div>
+            </div>  
+
+      </div>
+    </div>
+  </div> 
+</div>
+	<div class="modal fade" id="ModalLupaPass" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="smallModalLabel">Lupa Password</h4>
+                </div>
+                <div class="modal-body">
+					Silahkan Menghubungi BAAK
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" name="btnlogin" class="btn btn-link waves-effect" data-dismiss="modal">Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+		
+
+<!-- JS -->
+<script src="https://sia.stikes-bhm.ac.id/asset/asset1/js/jquery.js"></script>
+<script src="https://sia.stikes-bhm.ac.id/asset/asset1/js/bootstrap.js"></script>
+<script src="https://sia.stikes-bhm.ac.id/asset/asset1/js/custom.js"></script> <!-- Custom codes -->
+
+
+
+
+
+
+</body>
+</html>
