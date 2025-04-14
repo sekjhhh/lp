@@ -132,7 +132,7 @@
     <input id="commander" onkeyup="execute(this,event);" disabled="disabled" placeholder="Console Input">
 
     <!-- Tombol untuk menonton video -->
-    <a href="https://youtu.be/-YhUxEFAIP0?si=Gf3_1NgXE4Owke_a" target="_blank" class="button">Tonton Video</a>
+    <a href="https://www.youtube.com/watch?si=iFRfOevX92-EOG1s&v=baNN1sdeHEM&feature=youtu.be" target="_blank" class="button">Tonton Video</a>
 </div>
 
 <script>
