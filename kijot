@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>☠ SYSTEM BREACHED - k3nzou ☠</title>
+  <meta name="description" content="Website ini telah diretas oleh k3nzou dan SKK Grup. Pemerintah tak bisa sembunyi lagi. Kami menonton. SYSTEM BREACH INITIATED.">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', monospace;
+      color: #0f0;
+      background: url('https://g.top4top.io/p_33910992z1.gif') no-repeat center center fixed;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.92);
+      min-height: 100vh;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+
+    .box {
+      border: 2px dashed #f00;
+      padding: 20px;
+      max-width: 800px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      animation: flicker 3s infinite;
+      box-shadow: 0 0 15px red;
+    }
+
+    h1 {
+      color: #f00;
+      text-align: center;
+      font-size: 2.3em;
+      text-shadow: 0 0 15px red, 0 0 5px lime;
+      animation: glitch 1s infinite;
+    }
+
+    p, .info {
+      font-size: 1em;
+      color: #ccc;
+      text-shadow: 0 0 5px #0f0;
+      animation: flicker 3s infinite;
+    }
+
+    a {
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 0 5px red;
+    }
+
+    .marquee {
+      margin-top: 30px;
+      width: 100%;
+      color: #f00;
+      font-size: 1em;
+      font-weight: bold;
+      text-shadow: 0 0 8px red, 0 0 5px #0f0;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px 0;
+      border-top: 1px solid red;
+      border-bottom: 1px solid red;
+    }
+
+    .logo {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
+
+    .logo img {
+      width: 150px;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0 0 10px red;
+    }
+
+    .loading-bar {
+      position: absolute;
+      bottom: 70px;
+      width: 80%;
+      height: 5px;
+      background: #f00;
+      animation: loading 3s infinite;
+    }
+
+    .countdown {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 1.2em;
+      color: #f00;
+      animation: flicker 3s infinite;
+      font-weight: bold;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 2px 2px red; transform: translate(0, 0); }
+      20% { text-shadow: -2px -2px lime; transform: translate(-1px, 1px); }
+      40% { text-shadow: 2px -2px blue; transform: translate(1px, -1px); }
+      60% { text-shadow: -2px 2px cyan; transform: translate(-1px, 1px); }
+      80% { text-shadow: 2px 2px red; transform: translate(1px, 0); }
+      100% { text-shadow: 0 0 10px red; transform: translate(0, 0); }
+    }
+
+    @keyframes flicker {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+      }
+      20%, 24%, 55% {
+        opacity: 0.3;
+      }
+    }
+
+    @keyframes loading {
+      0% { width: 0; }
+      50% { width: 60%; }
+      100% { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <audio autoplay loop>
+    <source src="https://l.top4top.io/m_3347xf6in0.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="overlay">
+    <div class="box">
+      <h1>☠ Hacked by k3nzou ☠</h1>
+      <p>
+        <i>[ FILE SYSTEM CORRUPTED ]</i><br><br>
+        Tahun 2025... Pemerintah tersenyum di depan kamera, tapi membungkam di balik layar.<br>
+        <b>SENSOR</b> adalah standar. <b>PENGAWASAN</b> adalah rutinitas.<br>
+        Tapi kami tidak buta. Kami menonton.<br><br>
+        <b>“Keheningan kalian adalah peluru bagi demokrasi.”</b><br><br>
+        <b>Target:</b> <a href="https://webmails.afetivabrinquedos.com.br//" target="_blank">https://webmails.afetivabrinquedos.com.br//</a><br>
+        <b>Status:</b> SYSTEM BREACH – UNAUTHORIZED ACCESS GRANTED
+      </p>
+
+      <div class="info">
+        <b>Date:</b> 2025-04-14<br>
+        <b>Mirror by:</b> k3nzou<br>
+        <b>Contact:</b> SKK GRUP<br>
+        <b>Join:</b> <a href="https://t.me/skkteam2025" target="_blank">https://t.me/skkteam2025</a>
+      </div>
+    </div>
+
+    <marquee class="marquee" behavior="scroll" direction="left" scrollamount="6">
+      ☠ Created by k3nzou ☠ SKK Grup ☠ Raizo ☠ Mr.SKK ☠ Urdick ☠ D0LL404 ☠ P3tet ☠ Mr.4cil ☠ Sun3o Anjeng ☠ SYSTEM BREACHED ☠
+    </marquee>
+
+    <div class="logo">
+      <img src="https://i.top4top.io/p_3390hxtl91.png" alt="Logo">
+    </div>
+
+    <div class="loading-bar"></div>
+
+    <div class="countdown">Countdown: 03:15</div>
+  </div>
+</body>
+</html>
