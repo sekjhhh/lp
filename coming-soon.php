@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MR SKK - Splash Screen</title>
+  <title>HACKED BY - MR SKK</title>
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -90,7 +90,7 @@
       white-space: nowrap;
       overflow: hidden;
       width: 100%;
-      color: lime;
+      color: Yellow; /* Warna merah untuk teks running */
     }
 
     .running-text span {
@@ -157,12 +157,12 @@
     setInterval(launchFireworks, 1500);
 
     const consoleText = `
-      root@Acces~Danied: HALLO PAK
-      root@Acces~Danied: KAMI AKAN BERHENTI PAK
-      root@Acces~Danied: MELAKUKAN SEPERTI INI
-      root@Acces~Danied: JIKA UMR KAMI SUDAH MENCAPAY 1RB$
-      root@Acces~Danied: PERTIMBANGKEN PAK
-      root@Acces~Danied: MR SKK kalaw gaji kecil kejahatan akan terus bertambah
+      > HALLO PAK
+      > KAMI AKAN BERHENTI PAK
+      > MELAKUKAN SEPERTI INI
+      > JIKA UMR KAMI SUDAH MENCAPAY 1RB$
+      > PERTIMBANGKEN PAK
+      > MR-SKK. berkata kalaw gaji kecil kejahatan akan terus bertambah
 
 
       Kami Kuat Karena Kami Bersatu
