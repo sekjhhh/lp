@@ -130,17 +130,11 @@
     </div>
 
     <div id="console">
-      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> HALLO PAK</span><br>
-      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> KAMI AKAN BERHENTI PAK</span><br>
-      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> MELAKUKAN SEPERTI INI</span><br>
-      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> JIKA UMR KAMI SUDAH MENCAPAY 1RB$</span><br>
-      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> PERTIMBANGKEN PAK</span><br>
-      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> MR SKK kalaw gaji kecil kejahatan akan terus bertambah</span><br><br>
+      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> INODONESIA</span><br>
+      <span class="prefix">root@Acces~Danied:</span><span class="keyword"> KAPAN RAKYAT SEJAHTRA</span><br>
 
       <span class="prefix">Greetz:</span><span class="keyword"> SKK GRUP 2025-02-01 TERLAHIR NYA KAMI</span><br><br>
 
-      <span class="prefix">Kami Kuat Karena Kami Bersatu</span><br>
-      <span class="prefix">Indonesia</span><span class="keyword"> MERDEKA !!!!!</span><br><br>
 
       <span class="prefix">E<br>N<br>D</span>
     </div>
@@ -153,7 +147,7 @@
       spread: 160,
       angle: 60,
       origin: { y: 0.5 },
-      colors: ['#00FF00', '#32CD32', '#7CFC00', '#ADFF2F', '#00FA9A'],
+      colors: ['#e00910', '#e00910', '#7CFC00', '#e00910', '#e00910'],
     };
 
     function launchFireworks() {
@@ -170,7 +164,6 @@
       root@Acces~Danied: PERTIMBANGKEN PAK
       root@Acces~Danied: MR SKK kalaw gaji kecil kejahatan akan terus bertambah
 
-      Greetz: SKK GRUP 2025-02-01 TERLAHIR NYA KAMI
 
       Kami Kuat Karena Kami Bersatu
       Indonesia MERDEKA !!!!!
