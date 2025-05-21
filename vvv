@@ -1,0 +1,398 @@
+
+
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vua Sói Đổi Thưởng</title>
+<meta content="Tải xuống ngay Vua Sói Đổi Thưởng - game săn thưởng hấp dẫn với hàng ngàn phần quà giá trị đang chờ đón bạn. Tham gia vào thế giới của những chú sói mạnh mẽ, nhận thưởng dễ dàng và đổi thưởng thật với tính năng độc đáo. Giao diện thân thiện, gameplay mượt mà và nhiều ưu đãi khủng đang chờ bạn khám phá. Tải app ngay hôm nay!" name="description"/>
+<meta content=" " name="keywords"/>
+<!-- Schema. -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Vua Sói Đổi Thưởng",
+      "url": "http://vn.15555728830.com/web/BET88-khuy%E1%BA%BFn-m%C3%A3i.html",
+      "logo": "http://vn.15555728830.com/qipai/logo/logo_28.jpg",
+      "description": "Tải xuống ngay Vua Sói Đổi Thưởng - game săn thưởng hấp dẫn với hàng ngàn phần quà giá trị đang chờ đón bạn. Tham gia vào thế giới của những chú sói mạnh mẽ, nhận thưởng dễ dàng và đổi thưởng thật với tính năng độc đáo. Giao diện thân thiện, gameplay mượt mà và nhiều ưu đãi khủng đang chờ bạn khám phá. Tải app ngay hôm nay!",
+      "operatingSystem": "Android",
+      "applicationCategory": "GameApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "screenshot": [
+                "http://vn.15555728830.com/qipai/jietu/logo_10.jpg",                "http://vn.15555728830.com/qipai/jietu/logo_4.jpg",                "http://vn.15555728830.com/qipai/jietu/logo_12.jpg",                "http://vn.15555728830.com/qipai/jietu/logo_35.jpg"              ]
+    }
+    </script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<!-- Glide.js CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.core.min.css" rel="stylesheet"/>
+<link href="https://vn.15555728830.com/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo-container">
+<div class="logo">
+<img alt="Vua Sói Đổi Thưởng Logo" height="100" src="https://vn.15555728830.com/qipai/logo/logo_28.jpg" title="Vua Sói Đổi Thưởng" width="100"/>
+</div>
+<div class="app-title">
+<h1>Vua Sói Đổi Thưởng</h1>
+<p>Tải xuống ngay Vua Sói Đổi Thưởng - Tải bản chính thức</p>
+</div>
+</div>
+</div>
+</header>
+<div class="container">
+<div class="main-content">
+<div class="left-column">
+<!-- Ảnh chụp màn hình trò chơi -->
+<section class="card screenshots">
+<h2>Ảnh chụp màn hình trò chơi</h2>
+<div class="glide">
+<div class="glide__track" data-glide-el="track">
+<ul class="glide__slides">
+<li class="glide__slide">
+<div class="screenshot">
+<img alt="Vua Sói Đổi Thưởng Ảnh chụp màn hình trò chơi" height="400" src="https://vn.15555728830.com/qipai/jietu/logo_10.jpg" title="Vua Sói Đổi Thưởng" width="300"/>
+</div>
+</li>
+<li class="glide__slide">
+<div class="screenshot">
+<img alt="Vua Sói Đổi Thưởng Ảnh chụp màn hình trò chơi" height="400" src="https://vn.15555728830.com/qipai/jietu/logo_4.jpg" title="Vua Sói Đổi Thưởng" width="300"/>
+</div>
+</li>
+<li class="glide__slide">
+<div class="screenshot">
+<img alt="Vua Sói Đổi Thưởng Ảnh chụp màn hình trò chơi" height="400" src="https://vn.15555728830.com/qipai/jietu/logo_12.jpg" title="Vua Sói Đổi Thưởng" width="300"/>
+</div>
+</li>
+<li class="glide__slide">
+<div class="screenshot">
+<img alt="Vua Sói Đổi Thưởng Ảnh chụp màn hình trò chơi" height="400" src="https://vn.15555728830.com/qipai/jietu/logo_35.jpg" title="Vua Sói Đổi Thưởng" width="300"/>
+</div>
+</li>
+</ul>
+</div>
+<div class="glide__arrows" data-glide-el="controls">
+<button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;"><i class="fas fa-chevron-left"></i></button>
+<button class="glide__arrow glide__arrow--right" data-glide-dir="&gt;"><i class="fas fa-chevron-right"></i></button>
+</div>
+</div>
+</section>
+<!-- Giới thiệu trò chơi -->
+<section class="card intro">
+<h2>《Vua Sói Đổi Thưởng》Giới thiệu trò chơi</h2>
+<p>"Vua Sói Đổi Thưởng" là trò chơi hấp dẫn kết hợp giữa chiến thuật và may mắn, nơi người chơi nhập vai thành sói trong một thế giới mở đầy thử thách. Bạn sẽ xây dựng đế chế của riêng mình, săn mồi, mở khóa kỹ năng mới và cạnh tranh với những người chơi khác để trở thành "Vua Sói". Với hệ thống phần thưởng phong phú, nhiệm vụ đa dạng và đồ họa sinh động, game mang đến trải nghiệm giải trí thú vị dành cho mọi lứa tuổi. Tải ngay và khám phá thế giới hoang dã!</p>
+</section>
+<!-- Tính năng nổi bật của trò chơi -->
+<section class="card features">
+<h2>Vua Sói Đổi ThưởngĐặc sắc</h2>
+<div class="feature-content">
+                        "Vua Sói Đổi Thưởng" là một trò chơi hấp dẫn với nhiều tính năng đặc biệt:<br/>
+<br/>
+- Hệ thống nhiệm vụ đa dạng giúp người chơi khám phá thế giới mở thú vị.<br/>
+- Đồ họa 3D sắc nét và âm thanh sống động tạo trải nghiệm thực tế.<br/>
+- Nhiều chế độ chơi khác nhau từ PvP đến săn quái vật, thu thập vật phẩm quý hiếm.<br/>
+- Cập nhật thường xuyên các bản vá và sự kiện để giữ chân người chơi.<br/>
+- Hệ thống đổi thưởng phong phú với phần thưởng giá trị, bao gồm tiền mặt và vật phẩm độc quyền.<br/>
+- Kết nối mạng xã hội mạnh mẽ cho phép giao lưu và cạnh tranh với bạn bè.<br/>
+<br/>
+Tất cả mang lại trải nghiệm giải trí chất lượng cao dành cho mọi lứa tuổi.                    </div>
+</section>
+</div>
+<div class="right-column">
+<!-- Hướng dẫn chơi -->
+<section class="card guide">
+<h2>Vua Sói Đổi ThưởngHướng dẫn chơi</h2>
+<div class="guide-item">
+<h3>Nâng cấp nhanh</h3>
+<p>Ưu tiên hoàn thành nhiệm vụ hàng ngày và sự kiện thử thách</p>
+</div>
+<div class="guide-item">
+<h3>Chiến lược phân bổ tài nguyên</h3>
+<p>Tùy chỉnh lộ trình phát triển riêng dựa trên đặc điểm của thần tượng</p>
+</div>
+<div class="guide-item">
+<h3>Kỹ năng tương tác xã hội</h3>
+<p>Tăng độ thân thiết bằng cách tặng quà</p>
+</div>
+</section>
+<!-- Tải ngay -->
+<section class="download">
+<h2>Tải ngayVua Sói Đổi Thưởng</h2>
+<p>Tải ngay để nhận gói quà tân thủ！</p>
+<div class="download-buttons">
+<a class="download-btn" href="https://567seo.com" title="Tải ngayVua Sói Đổi Thưởng">
+<i class="fas fa-download"></i>
+                            Tải ngay
+                        </a>
+</div>
+<div class="download-info">
+                        Phiên bản: v1.4.1 |  Android 120MB
+                    </div>
+</section>
+<!-- Đề xuất trò chơi hot cùng thể loại -->
+<section class="card recommendations">
+<h2>Đề xuất trò chơi hot cùng thể loại</h2>
+<div class="recommendation-list">
+<a class="recommendation-item" href="Win99 bảo mật giao dịch .html" title="Win99 bảo mật giao dịch">
+<div class="recommendation-logo">
+<img alt="Win99 bảo mật giao dịch Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_10.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>Win99 bả...</h3>
+<p>Mô phỏng nuôi dưỡng | 8.4</p>
+</div>
+</a>
+<a class="recommendation-item" href="vuiclub.org .html" title="vuiclub.org">
+<div class="recommendation-logo">
+<img alt="vuiclub.org Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_38.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>vuiclub....</h3>
+<p>Mô phỏng nuôi dưỡng | 9.3</p>
+</div>
+</a>
+<a class="recommendation-item" href="Trò chơi đánh bài đổi thẻ .html" title="Trò chơi đánh bài đổi thẻ">
+<div class="recommendation-logo">
+<img alt="Trò chơi đánh bài đổi thẻ Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_34.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>Trò chơi...</h3>
+<p>Mô phỏng nuôi dưỡng | 8</p>
+</div>
+</a>
+<a class="recommendation-item" href="Game nổ hũ dễ trúng, chơi là thắng .html" title="Game nổ hũ dễ trúng, chơi là thắng">
+<div class="recommendation-logo">
+<img alt="Game nổ hũ dễ trúng, chơi là thắng Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_13.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>Game nổ ...</h3>
+<p>Mô phỏng nuôi dưỡng | 8.3</p>
+</div>
+</a>
+<a class="recommendation-item" href="789bet ví net thẻ bài .html" title="789bet ví net thẻ bài">
+<div class="recommendation-logo">
+<img alt="789bet ví net thẻ bài Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_37.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>789bet v...</h3>
+<p>Mô phỏng nuôi dưỡng | 8.6</p>
+</div>
+</a>
+<a class="recommendation-item" href="Nổ Hũ Thần Kỳ Triệu Hồi .html" title="Nổ Hũ Thần Kỳ Triệu Hồi">
+<div class="recommendation-logo">
+<img alt="Nổ Hũ Thần Kỳ Triệu Hồi Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_16.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>Nổ Hũ Th...</h3>
+<p>Mô phỏng nuôi dưỡng | 9.2</p>
+</div>
+</a>
+<a class="recommendation-item" href="tiêu đề: vt999.pro .html" title="tiêu đề: vt999.pro">
+<div class="recommendation-logo">
+<img alt="tiêu đề: vt999.pro Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_13.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>tiêu đề:...</h3>
+<p>Mô phỏng nuôi dưỡng | 9.1</p>
+</div>
+</a>
+<a class="recommendation-item" href="92slot quay thưởng trực tuyến .html" title="92slot quay thưởng trực tuyến">
+<div class="recommendation-logo">
+<img alt="92slot quay thưởng trực tuyến Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_19.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>92slot q...</h3>
+<p>Mô phỏng nuôi dưỡng | 8.4</p>
+</div>
+</a>
+<a class="recommendation-item" href="Thần Tài Xỉu Săn Boss .html" title="Thần Tài Xỉu Săn Boss">
+<div class="recommendation-logo">
+<img alt="Thần Tài Xỉu Săn Boss Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_9.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>Thần Tài...</h3>
+<p>Mô phỏng nuôi dưỡng | 9.4</p>
+</div>
+</a>
+<a class="recommendation-item" href="Go88vn đổi thưởng .html" title="Go88vn đổi thưởng">
+<div class="recommendation-logo">
+<img alt="Go88vn đổi thưởng Logo" height="60" src="https://vn.15555728830.com/qipai/logo/logo_37.jpg" width="60"/>
+</div>
+<div class="recommendation-text">
+<h3>Go88vn đ...</h3>
+<p>Mô phỏng nuôi dưỡng | 8.3</p>
+</div>
+</a>
+</div>
+</section>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<p>© 2025 Vua Sói Đổi ThưởngBản quyền thuộc về xưởng phát triển trò chơi</p>
+<p>Tẩy chay trò chơi xấu, nói không với game lậu.</p>
+<p>Trò chơi nguyên bản: <a href="https://vn.15555728830.com/web/BET88-khuy%E1%BA%BFn-m%C3%A3i.html" title="Vua Sói Đổi Thưởng">Vua Sói Đổi Thưởng</a></p>
+</div>
+<div class="friend-links"><a href="https://all4mining.com/" target="_blank" rel="noopener">all4mining</a>|<a href="https://aptminer.com/" target="_blank" rel="noopener">aptminer</a>|<a href="https://xrpmining.com/" target="_blank" rel="noopener">xrpmining</a>|<a href="https://juminer.com/" target="_blank" rel="noopener">juminer</a>|<a href="https://cryptominingfirm.com/" target="_blank" rel="noopener">crypto mining firm</a>
+</div>
+</footer>
+<!-- Glide.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
+<script>
+        new Glide('.glide', {
+            type: 'carousel',
+            perView: 1,
+            focusAt: 'center',
+            gap: 20,
+            breakpoints: {
+                768: {
+                    perView: 1
+                }
+            }
+        }).mount();
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateOnScroll = function() {
+                const elements = document.querySelectorAll('.card, .feature-item, .recommendation-item');
+                
+                elements.forEach(element => {
+                    const elementPosition = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (elementPosition < windowHeight - 100) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            };
+            
+            const cards = document.querySelectorAll('.card');
+            const features = document.querySelectorAll('.feature-item');
+            const recommendations = document.querySelectorAll('.recommendation-item');
+            
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            
+            features.forEach((feature, index) => {
+                feature.style.opacity = '0';
+                feature.style.transform = 'translateY(30px)';
+                feature.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+            });
+            
+            recommendations.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(30px)';
+                item.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+            });
+            
+            window.addEventListener('scroll', animateOnScroll);
+            animateOnScroll();
+        });
+    </script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B29VN0KPN7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B29VN0KPN7');
+</script>
+<script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"KdCQC2Dg0AjYwBzf",ck:"KdCQC2Dg0AjYwBzf",autoTrack:true,hashMode:true,screenRecord:true})</script>
+<style>
+    /* ĐĂNG KÝ */
+    #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ĐĂNG KÝ */
+    #popup {
+      position: relative;
+      width: 400px;
+      max-width: 90%;
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    #popup:hover {
+      transform: scale(1.02);
+    }
+
+    /* ĐĂNG KÝ */
+    #close-btn {
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      font-size: 20px;
+      color: white;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    /* ĐĂNG KÝ */
+    #popup-content {
+      padding: 20px;
+      color: white;
+      text-align: center;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    #popup-content h2 {
+      margin: 0 0 10px;
+      font-size: 24px;
+    }
+
+    #popup-content p {
+      margin: 0;
+      font-size: 16px;
+    }
+  </style>
+<!-- ĐĂNG KÝ-->
+<div id="overlay">
+<div id="popup" onclick="window.location.href='https://ggwin55.com'">
+<button id="close-btn" onclick="event.stopPropagation(); closePopup();">×</button>
+<div id="popup-content">
+<h2>🔥 Thua hoàn đến 30%！</h2>
+<p>ĐĂNG KÝ</p>
+</div>
+</div>
+</div>
+<script>
+  function closePopup() {
+    const overlay = document.getElementById('overlay');
+    overlay.style.display = 'none';
+  }
+</script>
+</body>
+</html>
